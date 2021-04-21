@@ -1,0 +1,30 @@
+[13-Sep-2020 04:47:29 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Aucune connexion n�a pu �tre �tablie car l�ordinateur cible l�a express�ment refus�e.
+ in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\wp-db.php on line 1626
+[13-Sep-2020 04:47:29 UTC] PHP Stack trace:
+[13-Sep-2020 04:47:29 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:0
+[13-Sep-2020 04:47:29 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:17
+[13-Sep-2020 04:47:29 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-blog-header.php:13
+[13-Sep-2020 04:47:29 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:37
+[13-Sep-2020 04:47:29 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[13-Sep-2020 04:47:29 UTC] PHP   6. require_wp_db() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:126
+[13-Sep-2020 04:47:29 UTC] PHP   7. wpdb->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\load.php:426
+[13-Sep-2020 04:47:29 UTC] PHP   8. wpdb->db_connect() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\wp-db.php:631
+[13-Sep-2020 04:47:30 UTC] PHP   9. mysqli_real_connect() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\wp-db.php:1626
+[13-Sep-2020 04:47:30 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Aucune connexion n�a pu �tre �tablie car l�ordinateur cible l�a express�ment refus�e.
+ in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\wp-db.php on line 1626
+[13-Sep-2020 04:47:30 UTC] PHP Stack trace:
+[13-Sep-2020 04:47:30 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:0
+[13-Sep-2020 04:47:30 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:17
+[13-Sep-2020 04:47:30 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-blog-header.php:13
+[13-Sep-2020 04:47:30 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:37
+[13-Sep-2020 04:47:30 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[13-Sep-2020 04:47:30 UTC] PHP   6. require_wp_db() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:126
+[13-Sep-2020 04:47:30 UTC] PHP   7. wpdb->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\load.php:426
+[13-Sep-2020 04:47:30 UTC] PHP   8. wpdb->db_connect() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\wp-db.php:631
+[13-Sep-2020 04:47:30 UTC] PHP   9. mysqli_real_connect() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\wp-db.php:1626
+[09-Oct-2020 17:25:41 UTC] PHP Notice:  Undefined variable: error in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\theme-editor.php on line 159
+[09-Oct-2020 17:25:41 UTC] PHP Stack trace:
+[09-Oct-2020 17:25:41 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\theme-editor.php:0
+[09-Oct-2020 17:25:41 UTC] PHP Notice:  Undefined variable: error in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\theme-editor.php on line 277
+[09-Oct-2020 17:25:41 UTC] PHP Stack trace:
+[09-Oct-2020 17:25:41 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\theme-editor.php:0

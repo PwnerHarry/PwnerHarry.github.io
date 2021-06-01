@@ -28,3 +28,33 @@
 [09-Oct-2020 17:25:41 UTC] PHP Notice:  Undefined variable: error in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\theme-editor.php on line 277
 [09-Oct-2020 17:25:41 UTC] PHP Stack trace:
 [09-Oct-2020 17:25:41 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\theme-editor.php:0
+[01-Jun-2021 19:09:41 UTC] PHP Warning:  copy(C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads/WP-STATIC-INITIAL-CRAWL-LIST.txt): failed to open stream: No such file or directory in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Exporter.php on line 2
+[01-Jun-2021 19:09:41 UTC] PHP Stack trace:
+[01-Jun-2021 19:09:41 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[01-Jun-2021 19:09:41 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[01-Jun-2021 19:09:41 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:484
+[01-Jun-2021 19:09:41 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:316
+[01-Jun-2021 19:09:41 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:292
+[01-Jun-2021 19:09:41 UTC] PHP   6. WP2Static_Controller->prepare_for_export() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[01-Jun-2021 19:09:41 UTC] PHP   7. Exporter->generateModifiedFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[01-Jun-2021 19:09:41 UTC] PHP   8. copy() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Exporter.php:2
+[01-Jun-2021 19:09:41 UTC] PHP Warning:  chmod(): No such file or directory in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Exporter.php on line 2
+[01-Jun-2021 19:09:41 UTC] PHP Stack trace:
+[01-Jun-2021 19:09:41 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[01-Jun-2021 19:09:41 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[01-Jun-2021 19:09:41 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:484
+[01-Jun-2021 19:09:41 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:316
+[01-Jun-2021 19:09:41 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:292
+[01-Jun-2021 19:09:41 UTC] PHP   6. WP2Static_Controller->prepare_for_export() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[01-Jun-2021 19:09:41 UTC] PHP   7. Exporter->generateModifiedFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[01-Jun-2021 19:09:41 UTC] PHP   8. chmod() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Exporter.php:2
+[01-Jun-2021 19:09:41 UTC] PHP Warning:  copy(C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads/WP-STATIC-INITIAL-CRAWL-LIST.txt): failed to open stream: No such file or directory in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Exporter.php on line 2
+[01-Jun-2021 19:09:41 UTC] PHP Stack trace:
+[01-Jun-2021 19:09:41 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[01-Jun-2021 19:09:41 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[01-Jun-2021 19:09:41 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:484
+[01-Jun-2021 19:09:41 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:316
+[01-Jun-2021 19:09:41 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:292
+[01-Jun-2021 19:09:41 UTC] PHP   6. WP2Static_Controller->prepare_for_export() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[01-Jun-2021 19:09:41 UTC] PHP   7. Exporter->generateModifiedFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[01-Jun-2021 19:09:41 UTC] PHP   8. copy() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Exporter.php:2

@@ -2,7 +2,7 @@
 
 1. Download WampServer from https://sourceforge.net/projects/wampserver/
 
-2. Create folder link with PowerShell by: mklink /J LINK TARGET -> mklink /J "C:\wamp64\www\homepage" "C:\Git\PwnerHarry.github.io\SOURCE\WordPress"
+2. Create folder link with CMD by: mklink /J LINK TARGET -> mklink /J "C:\wamp64\www\homepage" "C:\Git\PwnerHarry.github.io\SOURCE\WordPress"
 
 3. Run WampServer
 

@@ -18,5 +18,5 @@
 	a:after > img {content: "";}
 	article a[href^="#"]:after {content: "";}
 	a:not(:local-link):after {content: " < " attr(href) "> ";}
-	#site-header, .comment-form, .comments-wrapper, .comment .comment-metadata, .footer-social-wrapper, .footer-widgets-outer-wrapper, .header-navigation-wrapper, .pagination-wrapper, .post-meta-wrapper.post-meta-single-bottom, .post-separator, .site-logo img {display: none;}
+	#site-header, .comment-form, .comments-wrapper, .comment .comment-metadata, .footer-social-wrapper, .footer-widgets-outer-wrapper, .header-navigation-wrapper, .entry-categories, .post-comment-link.meta-wrapper, .pagination-wrapper, .pagination-single, .post-meta-wrapper.post-meta-edit-link-wrapper, .post-meta-wrapper.post-meta-single-bottom, .post-separator, .site-logo img {display: none;}
 	.entry-content .wp-block-button .wp-block-button__link, .entry-content .wp-block-button .wp-block-file__button, .entry-content .button {background: none;color: #000;}}

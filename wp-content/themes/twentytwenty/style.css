@@ -503,6 +503,7 @@ figure.wp-block-table.is-style-stripes {border-bottom: none;}
 .wp-block-latest-posts.has-dates {list-style: none;}
 .wp-block-latest-posts.has-dates:not(.is-grid) li {margin-top: 1.5rem;}
 .wp-block-latest-posts.has-dates:not(.is-grid) li:first-child {margin-top: 0;}
+.wp-block-post-template, .wp-block-post-template > li {margin-left: 0;margin-right: 0;}
 .entry-content {line-height: 1.5;}
 .entry-content > * {margin-left: auto;margin-right: auto;margin-bottom: 1.25em;}
 .entry-content > *:first-child {margin-top: 0;}

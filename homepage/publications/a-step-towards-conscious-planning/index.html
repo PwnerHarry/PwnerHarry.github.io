@@ -202,7 +202,7 @@
 
 
 
-<p class="has-text-align-center has-small-font-size">Mingde “Harry” Zhao, Zhen Liu, Sitao Luan, Shuyuan Zhang, Doina Precup, Yoshua Bengio</p>
+<p class="has-text-align-center has-small-font-size">Mingde Zhao, Zhen Liu, Sitao Luan, Shuyuan Zhang, Doina Precup, Yoshua Bengio</p>
 
 
 
@@ -210,15 +210,15 @@
 
 
 
-<p class="has-drop-cap has-large-font-size">We introduce into reinforcement learning inductive biases inspired by higher-order cognitive functions in humans. These architectural constraints enable the planning to direct attention dynamically to the interesting parts of the state at each step of imagined future trajectories. We present an end-to-end learning agent that carries out such latent space partial planning, powered by set representation and a bottleneck mechanism, forcing the number of attended entities (the partial state) to be small at each planning step. The planning agent learns to attend to the relevant parts of the environment state which change in each transition or influence the reward and termination. In experiments, we observe that the bottleneck contributes to learning representations and demonstrates advantages in terms of out-of-distribution generalization in different families of tasks.</p>
+<p class="has-drop-cap has-large-font-size">We introduce into reinforcement learning inductive biases inspired by higher-order cognitive functions in humans. These architectural constraints enable the planning to direct attention dynamically to the interesting parts of the state at each step of imagined future trajectories.</p>
 
 
 
-<p>Whether when planning our paths home from the office or from a hotel to an airport in an unfamiliar city, we typically focus our attention on a small subset of relevant variables, e.g. the change in position or the presence of obstacles on the planned path. It is plausible that this ability contributes to the ease with which humans handle novel situations.</p>
+<p>Whether when planning our paths home from the office or from a hotel to an airport in an unfamiliar city, we typically focus on a small subset of relevant variables, e.g. the change in position or the presence of traffic. An interesting hypothesis of how this path planning skill generalizes across scenarios is that it may be due to computation associated with the conscious processing of information. Conscious attention focuses on a few necessary environment elements, with the help of an internal abstract representation of the world. This pattern, also known as consciousness in the first sense (C1), has been theorized to enable humans’ exceptional adaptability and learning efficiency. A central characterization of conscious processing is that it involves a bottleneck, which forces one to handle dependencies between very few characteristics of the environment at a time. Though this focus on a small subset of the available information may seem limiting, it may facilitate Out-Of-Distribution (OOD) and systematic generalization toother situations where the ignored variables are different and yet still irrelevant. In this paper, we propose an architecture which allows us to encode some of these ideas into reinforcement learning agents.</p>
 
 
 
-<p>The observation raises our interest in the inductive biases regarding the algorithms for this kind of conscious planning, which involves attending to the right elements of the state space at different steps of the plan. An interesting hypothesis is that this ability may be due to a style of computation associated with the conscious processing of information. Conscious attention focuses on a few necessary environment elements, with the help of an abstract representation of the world internal to the agent. This pattern, also known as consciousness in the first sense (C1), has been theorized to be the source of humans’ exceptional ability to generalize or adapt well to new situations, and learn skills or new concepts efficiently from very few examples. A central characteristic of conscious processing is that it involves a <span class="has-inline-color has-accent-color">bottleneck</span>, which forces one to handle dependencies between very few characteristics of the environment at a time. Although this focus on a small subset of the available information may seem limiting, it may facilitate Out-Of-Distribution (OOD) and systematic generalization, e.g. to other settings where the ignored variables are different.</p>
+<p>Our proposal is to take inspiration from human consciousness to build an architecture which learns a useful state space and in which attention can be focused on a small set of variables at any time. This idea of “partial planning” is enabled by modern deep RL techniques. Specifically, we propose an end-to-end latent-space MBRL agent which does not require reconstructing the observations, as in most existing works, and uses Model Predictive Control (MPC) for decision-time planning. From an observation, the agent encodes a set of objects as a state, with a selective attention bottleneck mechanism to plan over selected subsets of the state (Sec. 4). Our experiments show that the inductive biases improve a specific form of OOD generalization, where consistent dynamics are preserved across seemingly different environment settings (Sec. 5).</p>
 
 
 
@@ -226,15 +226,43 @@
 
 
 
-<p>In this paper, we propose an end-to-end architecture which allows us to encode some of these ideas into reinforcement learning agents. Reinforcement learning (RL) is a natural approach for combining learning how to act from interaction with a complex environment, and planning to achieve new goals. However, most of the big successes of RL have been obtained by deep, model-free agents. While Model-Based RL (MBRL) has generated significant research, its empirical performance has typically lagged behind, with the notable exception of MuZero. We note that most MBRL agents work in the observation space, again with the exceptions of the Predictron and MuZero.</p>
+<p><strong><span class="has-inline-color has-accent-color">Interesting Q & As:</span></strong></p>
+
+
+
+<p><strong>Q: Can you define what you mean by OOD in this work?</strong></p>
+
+
+
+<p>A: We focus on skills <em>transferrable</em> to totally different environments with <em>consistent dynamics</em>. This means the environmental dynamics that is sufficient for solving the in-distribution training tasks and the OOD evaluation tasks are consistently preserved, while the rest can be very different. Intuitively, we want to train our agent to be able to plan routes in the home city and expect this ability to be generalized to totally different municipality. The places can be very different, but the route planning skill depends on the knowledge that is quite universal.</p>
+
+
+
+<p><strong>Q: Why do you employ a non-static setting where environments change every episode?</strong></p>
+
+
+
+<p>A: Intuitively, the agent has no need to understand the dynamics of the task if the environment is fixed. Learning to memorize where to go and where not to is far easier than reasoning about what may happen. With the challenges, it became necessity for the agent to indeed learn and understand the environment dynamics, which is crucial for OOD evaluation.</p>
+
+
+
+<p><strong>Q: Why not use richer architectures for experiments?</strong></p>
+
+
+
+<p>A: Since there are already many components in the proposed agent, to isolate possible factors that would influence the agent behaviors, we use the minimal architecture sizes that marginally enables good RL performance on our test settings.</p>
+
+
+
+<p><strong>Q: Why not use MCTS as the search method for decision-time planning?</strong></p>
+
+
+
+<p>A: Unlike AlphaGo, which employs MCTS, our architecture is based on the simplest baseline DQN. DQN uses a value-estimator based greedy policy instead of a parameterized one as the actor-critic architecture used in AlphaGo. The DQN policy is deterministic <em>w.r.t.</em> the estimated values therefore the planning cannot take sufficient advantage of the sample based MCTS.</p>
 
 
 
 <div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="http://mingde.world/wp-content/uploads/2021/06/image-1.png" alt="" class="wp-image-233" width="610" height="565" srcset="http://mingde.world/wp-content/uploads/2021/06/image-1.png 742w,http://mingde.world/wp-content/uploads/2021/06/image-1-300x278.png 300w" sizes="(max-width: 610px) 100vw, 610px"><figcaption><em>A birdseye view of the overall design</em></figcaption></figure></div>
-
-
-
-<p>Our proposal is to use inspiration from human conscious planning to build an architecture which can learn a latent space useful for planning and in which attention can be focused on a small set of variables at any time. This builds on the idea of partial planning with modern deep RL architectures. More specifically, we build and train an end-to-end latent-space MBRL agent which does not require reconstructing the observations, and uses tree-search based model predictive control as the planning algorithm. Our model uses a set-based representation to construct a latent state from its observations, and a selective attention bottleneck mechanism to plan over dynamically selected aspects of the state. Our experiments show that these architectural constraints improve both sample complexity and OOD generalization, compared to more conventional MBRL methods.</p>
 
 		</div>
 

@@ -246,6 +246,14 @@
 
 
 
+<p><strong>Q: How do you avoid collapse in the state representation?</strong></p>
+
+
+
+<p>A: Apart from the training signal for dynamics, whose exclusive existence might cause collapse, all other training signals go through the common bottleneck of the encoder thus the representation is also shaped by the TD signals, the reward-termination prediction signals. We also want to mention that the regularizations participate in this as well.</p>
+
+
+
 <p><strong>Q: Why not use richer architectures for experiments?</strong></p>
 
 

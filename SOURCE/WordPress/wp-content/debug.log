@@ -234,3 +234,91 @@
 [15-Sep-2021 14:50:13 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
 [15-Sep-2021 14:50:13 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
 [15-Sep-2021 14:50:13 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[16-Sep-2021 02:58:59 UTC] PHP Notice:  Trying to get property 'hierarchical' of non-object in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 336
+[16-Sep-2021 02:58:59 UTC] PHP Stack trace:
+[16-Sep-2021 02:58:59 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[16-Sep-2021 02:58:59 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[16-Sep-2021 02:58:59 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:470
+[16-Sep-2021 02:58:59 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:327
+[16-Sep-2021 02:58:59 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:303
+[16-Sep-2021 02:58:59 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[16-Sep-2021 02:58:59 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[16-Sep-2021 02:58:59 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[16-Sep-2021 02:58:59 UTC] PHP   9. get_post_permalink() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[16-Sep-2021 02:58:59 UTC] PHP Notice:  Trying to get property 'query_var' of non-object in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 346
+[16-Sep-2021 02:58:59 UTC] PHP Stack trace:
+[16-Sep-2021 02:58:59 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[16-Sep-2021 02:58:59 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[16-Sep-2021 02:58:59 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:470
+[16-Sep-2021 02:58:59 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:327
+[16-Sep-2021 02:58:59 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:303
+[16-Sep-2021 02:58:59 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[16-Sep-2021 02:58:59 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[16-Sep-2021 02:58:59 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[16-Sep-2021 02:58:59 UTC] PHP   9. get_post_permalink() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[16-Sep-2021 02:59:00 UTC] PHP Notice:  Trying to get property 'labels' of non-object in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[16-Sep-2021 02:59:00 UTC] PHP Stack trace:
+[16-Sep-2021 02:59:00 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[16-Sep-2021 02:59:00 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[16-Sep-2021 02:59:00 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:470
+[16-Sep-2021 02:59:00 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:327
+[16-Sep-2021 02:59:00 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:303
+[16-Sep-2021 02:59:00 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[16-Sep-2021 02:59:00 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[16-Sep-2021 02:59:00 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[16-Sep-2021 02:59:00 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[16-Sep-2021 02:59:00 UTC] PHP Notice:  Trying to get property 'name' of non-object in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[16-Sep-2021 02:59:00 UTC] PHP Stack trace:
+[16-Sep-2021 02:59:00 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[16-Sep-2021 02:59:00 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[16-Sep-2021 02:59:00 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:470
+[16-Sep-2021 02:59:00 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:327
+[16-Sep-2021 02:59:00 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:303
+[16-Sep-2021 02:59:00 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[16-Sep-2021 02:59:00 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[16-Sep-2021 02:59:00 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[16-Sep-2021 02:59:00 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[16-Sep-2021 03:05:45 UTC] PHP Notice:  Trying to get property 'hierarchical' of non-object in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 336
+[16-Sep-2021 03:05:45 UTC] PHP Stack trace:
+[16-Sep-2021 03:05:45 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[16-Sep-2021 03:05:45 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[16-Sep-2021 03:05:45 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:470
+[16-Sep-2021 03:05:45 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:327
+[16-Sep-2021 03:05:45 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:303
+[16-Sep-2021 03:05:45 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[16-Sep-2021 03:05:45 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[16-Sep-2021 03:05:45 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[16-Sep-2021 03:05:45 UTC] PHP   9. get_post_permalink() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[16-Sep-2021 03:05:45 UTC] PHP Notice:  Trying to get property 'query_var' of non-object in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 346
+[16-Sep-2021 03:05:45 UTC] PHP Stack trace:
+[16-Sep-2021 03:05:45 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[16-Sep-2021 03:05:45 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[16-Sep-2021 03:05:45 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:470
+[16-Sep-2021 03:05:45 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:327
+[16-Sep-2021 03:05:45 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:303
+[16-Sep-2021 03:05:45 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[16-Sep-2021 03:05:45 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[16-Sep-2021 03:05:45 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[16-Sep-2021 03:05:45 UTC] PHP   9. get_post_permalink() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[16-Sep-2021 03:05:45 UTC] PHP Notice:  Trying to get property 'labels' of non-object in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[16-Sep-2021 03:05:45 UTC] PHP Stack trace:
+[16-Sep-2021 03:05:45 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[16-Sep-2021 03:05:45 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[16-Sep-2021 03:05:45 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:470
+[16-Sep-2021 03:05:45 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:327
+[16-Sep-2021 03:05:45 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:303
+[16-Sep-2021 03:05:45 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[16-Sep-2021 03:05:45 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[16-Sep-2021 03:05:45 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[16-Sep-2021 03:05:45 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[16-Sep-2021 03:05:45 UTC] PHP Notice:  Trying to get property 'name' of non-object in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[16-Sep-2021 03:05:45 UTC] PHP Stack trace:
+[16-Sep-2021 03:05:45 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[16-Sep-2021 03:05:45 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[16-Sep-2021 03:05:45 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:470
+[16-Sep-2021 03:05:45 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:327
+[16-Sep-2021 03:05:45 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:303
+[16-Sep-2021 03:05:45 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[16-Sep-2021 03:05:45 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[16-Sep-2021 03:05:45 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[16-Sep-2021 03:05:45 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10

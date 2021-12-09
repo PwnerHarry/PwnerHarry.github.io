@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		
+	<title>A Consciousness-Inspired Planning Agent for Model-Based Reinforcement Learning – Mingde "Harry" Zhao</title>
+<meta name="robots" content="max-image-preview:large">
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+
+
+<link rel="stylesheet" id="wp-block-library-css" href="http://mingde.world/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="textdash-style-css" href="http://mingde.world/wp-content/themes/textdash/style.css" type="text/css" media="all">
+<style id="textdash-style-inline-css" type="text/css">
+body { font-family: "Roboto Slab", Arial, sans-serif; }
+
+.themeform label .required,
+.entry a,
+.site-title a,
+.nav-menu:not(.mobile) a,
+.nav-menu.mobile ul li a,
+.type-list-date .type-list-date-day,
+.type-list-title a,
+.slick-featured-nav .slick-prev:before,
+.slick-featured-nav .slick-next:before,
+.featured-item .thumb-icon,
+.post-comments,
+.post-comments:hover,
+.slick-highlights-nav .slick-prev:before,
+.slick-highlights-nav .slick-next:before,
+.highlights-date,
+.highlights-title,
+.highlights-item .thumb-icon,
+.related-title a:hover,
+.widget a:hover,
+.alx-tabs-nav li a,
+.alx-tab .tab-item-category a,
+.alx-posts .post-item-category a,
+.alx-tab li:hover .tab-item-title a,
+.alx-tab li:hover .tab-item-comment a,
+.alx-posts li:hover .post-item-title a,
+.comment-tabs li.active a { color: #6f12e2; }
+
+.themeform input[type="button"],
+.themeform input[type="reset"],
+.themeform input[type="submit"],
+.themeform button[type="button"],
+.themeform button[type="reset"],
+.themeform button[type="submit"],
+.themeform input[type="button"]:hover,
+.themeform input[type="reset"]:hover,
+.themeform input[type="submit"]:hover,
+.themeform button[type="button"]:hover,
+.themeform button[type="reset"]:hover,
+.themeform button[type="submit"]:hover,
+.toggle-search,
+.toggle-search.active,
+.search-expand,
+.menu-toggle-icon span,
+.type-list-date .type-list-date-month,
+.featured-item,
+.highlights-item .post-comments,
+.author-bio .bio-avatar:after,
+.sidebar .post-nav li a:hover,
+.widget_calendar caption,
+.alx-tabs-nav li.active a { background-color: #6f12e2; }
+
+#profile { border-bottom: 5px solid #6f12e2; }
+
+.nav-menu.mobile button:focus,
+.menu-toggle:focus { box-shadow: inset 0 0px 2px #6f12e2; }
+
+.nav-menu .svg-icon,
+.nav-menu.mobile button.active .svg-icon { fill: #6f12e2; }
+
+.highlights-item .post-comments > span:before { border-color: transparent #6f12e2 transparent transparent; }
+
+				
+
+.nav-menu.mobile,
+.type-list-date .type-list-date-day,
+.type-list-inner .post-comments,
+.slick-highlights-nav .slick-prev,
+.slick-highlights-nav .slick-next,
+.slick-highlights-nav .slick-prev:hover,
+.slick-highlights-nav .slick-next:hover,
+.slick-highlights-nav .slick-prev:focus,
+.slick-highlights-nav .slick-next:focus,
+.highlights-item,
+.comment-tabs li.active a { background-color: #dddbff; }
+
+.type-list-inner .post-comments > span:before { border-color: transparent #dddbff transparent transparent; }
+				
+
+.s2 { background-color: #420d77; }
+				
+
+body { background-color: ; }
+				
+
+</style>
+<link rel="stylesheet" id="textdash-responsive-css" href="http://mingde.world/wp-content/themes/textdash/responsive.css" type="text/css" media="all">
+<link rel="stylesheet" id="textdash-font-awesome-css" href="http://mingde.world/wp-content/themes/textdash/fonts/all.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="roboto-slab-css" href="//fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C300italic%2C300%2C400italic%2C700&subset=latin%2Clatin-ext&ver=5.8.2" type="text/css" media="all">
+<script type="text/javascript" src="http://mingde.world/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="http://mingde.world/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="http://mingde.world/wp-content/plugins/alx-extensions/js/jquery.sharrre.min.js" id="alx-ext-sharrre-js"></script>
+<script type="text/javascript" src="http://mingde.world/wp-content/themes/textdash/js/slick.min.js" id="textdash-slick-js"></script>
+
+
+
+
+
+
+<link rel="icon" href="http://mingde.world/wp-content/uploads/2021/09/cropped-purple-150x150.jpg" sizes="32x32">
+<link rel="icon" href="http://mingde.world/wp-content/uploads/2021/09/cropped-purple-200x200.jpg" sizes="192x192">
+<link rel="apple-touch-icon" href="http://mingde.world/wp-content/uploads/2021/09/cropped-purple-200x200.jpg">
+<meta name="msapplication-TileImage" content="http://mingde.world/wp-content/uploads/2021/09/cropped-purple-300x300.jpg">
+<style id="kirki-inline-styles"></style></head>
+
+<body class="page-template-default page page-id-205 page-child parent-pageid-90 col-2cl full-width logged-out">
+
+
+<a class="skip-link screen-reader-text" href="#page">Skip to content</a>
+
+<div id="wrapper" class="group">
+	
+		
+	<div id="wrapper-inner">
+	
+		<header id="header">
+				
+			<p class="site-title"><a href="http://mingde.world/" rel="home">Mingde "Harry" Zhao</a></p>
+							<p class="site-description">赵明德</p>
+			
+			<div id="move-sidebar-header"></div>
+			
+	<div class="sidebar s1">
+		
+		<div class="sidebar-content">
+
+						
+			
+			
+		</div>
+		
+	</div>
+	
+			
+		</header>
+		
+				
+			<div class="sidebar s2">
+																				</div>
+		
+				
+		<div class="main">
+		
+							<div id="wrap-nav-header" class="wrap-nav">
+							<nav id="nav-header-nav" class="main-navigation nav-menu">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+				<span class="screen-reader-text">Expand Menu</span><div class="menu-toggle-icon"><span></span><span></span><span></span></div>			</button>
+			<div class="menu-primary-container"><ul id="nav-header" class="menu"><li id="menu-item-45" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-45"><span class="menu-item-wrapper"><a href="http://mingde.world/">Home</a></span></li>
+<li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-92"><span class="menu-item-wrapper"><a href="http://mingde.world/publications/"><span class="screen-reader-text">Current Page Parent </span>Publications</a></span></li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><span class="menu-item-wrapper"><a href="http://mingde.world/contact/">Contact</a></span></li>
+<li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><span class="menu-item-wrapper"><a href="http://mingde.world/cv-resume/">CV / Resume</a></span></li>
+</ul></div>		</nav>
+						</div>
+						
+						
+			<div class="main-inner group" id="page">
+<div class="content">
+	<div class="content-inner group">
+				
+		<article class="post-205 page type-page status-publish has-post-thumbnail hentry">	
+			
+			<div class="post-wrapper group">
+				<header class="entry-header group">
+					<h1 class="entry-title">A Consciousness-Inspired Planning Agent for Model-Based Reinforcement Learning</h1>
+				</header>
+				<div class="entry-content">
+					<div class="entry themeform">
+						
+<p class="has-text-align-center has-small-font-size">Mingde Zhao, Zhen Liu, Sitao Luan, Shuyuan Zhang, Doina Precup, Yoshua Bengio</p>
+
+
+
+<p class="has-text-align-center">(<a href="https://arxiv.org/abs/2106.02097" data-type="URL" data-id="https://arxiv.org/abs/2106.02097">arXiv</a> / <a href="https://github.com/PwnerHarry/CP" data-type="URL" data-id="https://github.com/PwnerHarry/CP">GitHub</a> / <a href="https://youtu.be/vC1SEroKNDY" data-type="URL" data-id="https://youtu.be/vC1SEroKNDY">YouTube</a>)</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="http://mingde.world/wp-content/uploads/2021/12/CP_Poster.png"><img loading="lazy" width="1024" height="576" src="http://mingde.world/wp-content/uploads/2021/12/CP_Poster-1024x576.png" alt="" class="wp-image-352" srcset="http://mingde.world/wp-content/uploads/2021/12/CP_Poster-1024x576.png 1024w,http://mingde.world/wp-content/uploads/2021/12/CP_Poster-300x169.png 300w,http://mingde.world/wp-content/uploads/2021/12/CP_Poster-768x432.png 768w,http://mingde.world/wp-content/uploads/2021/12/CP_Poster-1536x864.png 1536w,http://mingde.world/wp-content/uploads/2021/12/CP_Poster-2048x1152.png 2048w,http://mingde.world/wp-content/uploads/2021/12/CP_Poster-520x293.png 520w,http://mingde.world/wp-content/uploads/2021/12/CP_Poster-880x495.png 880w" sizes="(max-width: 1024px) 100vw, 1024px"></a></figure>
+
+
+
+<p class="has-medium-font-size">[Published at NeurIPS 2021] We introduce into reinforcement learning inductive biases inspired by higher-order cognitive functions in humans. These architectural constraints enable the planning to direct attention dynamically to the interesting parts of the state at each step of imagined future trajectories.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="http://mingde.world/wp-content/uploads/2021/06/image-1.png" alt="" class="wp-image-233" width="610" height="500"><figcaption><em>A birdseye view of the overall design</em></figcaption></figure></div>
+
+
+
+<p>Whether when planning our paths home from the office or from a hotel to an airport in an unfamiliar city, we typically focus on a small subset of relevant variables, e.g. the change in position or the presence of traffic. An interesting hypothesis of how this path planning skill generalizes across scenarios is that it may be due to computation associated with the conscious processing of information. Conscious attention focuses on a few necessary environment elements, with the help of an internal abstract representation of the world. This pattern, also known as consciousness in the first sense (C1), has been theorized to enable humans’ exceptional adaptability and learning efficiency. A central characterization of conscious processing is that it involves a bottleneck, which forces one to handle dependencies between very few characteristics of the environment at a time. Though this focus on a small subset of the available information may seem limiting, it may facilitate Out-Of-Distribution (OOD) and systematic generalization toother situations where the ignored variables are different and yet still irrelevant. In this paper, we propose an architecture which allows us to encode some of these ideas into reinforcement learning agents.</p>
+
+
+
+<p>Our proposal is to take inspiration from human consciousness to build an architecture which learns a useful state space and in which attention can be focused on a small set of variables at any time. This idea of “partial planning” is enabled by modern deep RL techniques. Specifically, we propose an end-to-end latent-space MBRL agent which does not require reconstructing the observations, as in most existing works, and uses Model Predictive Control (MPC) for decision-time planning. From an observation, the agent encodes a set of objects as a state, with a selective attention bottleneck mechanism to plan over selected subsets of the state (Sec. 4). Our experiments show that the inductive biases improve a specific form of OOD generalization, where consistent dynamics are preserved across seemingly different environment settings (Sec. 5).</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="886" height="209" src="http://mingde.world/wp-content/uploads/2021/06/image.png" alt="" class="wp-image-229" srcset="http://mingde.world/wp-content/uploads/2021/06/image.png 886w,http://mingde.world/wp-content/uploads/2021/06/image-300x71.png 300w,http://mingde.world/wp-content/uploads/2021/06/image-768x181.png 768w" sizes="(max-width: 886px) 100vw, 886px"><figcaption><em>Experiment showing the promising OOD generalization ability of the bottleneck</em></figcaption></figure></div>
+
+
+
+<p><strong><span class="has-inline-color has-accent-color">Interesting Q & As:</span></strong></p>
+
+
+
+<p><strong>Q: Can you define what you mean by OOD in this work?</strong></p>
+
+
+
+<p>A: We focus on skills <em>transferrable</em> to totally different environments with <em>consistent dynamics</em>. This means the environmental dynamics that is sufficient for solving the in-distribution training tasks and the OOD evaluation tasks are consistently preserved, while the rest can be very different. Intuitively, we want to train our agent to be able to plan routes in the home city and expect this ability to be generalized to totally different municipality. The places can be very different, but the route planning skill depends on the knowledge that is quite universal.</p>
+
+
+
+<p><strong>Q: Why do you employ a non-static setting where environments change every episode?</strong></p>
+
+
+
+<p>A: Intuitively, the agent has no need to understand the dynamics of the task if the environment is fixed. Learning to memorize where to go and where not to is far easier than reasoning about what may happen. With the challenges, it became necessity for the agent to indeed learn and understand the environment dynamics, which is crucial for OOD evaluation.</p>
+
+
+
+<p><strong>Q: How do you avoid collapse in the state representation?</strong></p>
+
+
+
+<p>A: Apart from the training signal for dynamics, whose exclusive existence might cause collapse, all other training signals go through the common bottleneck of the encoder thus the representation is also shaped by the TD signals, the reward-termination prediction signals. We also want to mention that the regularizations participate in this as well.</p>
+
+
+
+<p><strong>Q: Why not use richer architectures for experiments?</strong></p>
+
+
+
+<p>A: Since there are already many components in the proposed agent, to isolate possible factors that would influence the agent behaviors, we use the minimal architecture sizes that marginally enables good RL performance on our test settings.</p>
+
+
+
+<p><strong>Q: Why not use MCTS as the search method for decision-time planning?</strong></p>
+
+
+
+<p>A: Unlike AlphaGo, which employs MCTS, our architecture is based on the simplest baseline DQN. DQN uses a value-estimator based greedy policy instead of a parameterized one as the actor-critic architecture used in AlphaGo. The DQN policy is deterministic <em>w.r.t.</em> the estimated values therefore the planning cannot take sufficient advantage of the sample based MCTS.</p>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="entry-footer group">
+									</div>
+			</div>
+
+		</article>	
+		
+			</div>
+</div>
+
+<div id="move-sidebar-content"></div>
+
+			</div>
+				
+			<footer id="footer">
+			
+									
+								
+				<div id="footer-bottom">
+					
+					<a id="back-to-top" href="#"><i class="fas fa-angle-up"></i></a>
+						
+					<div class="pad group">
+						
+						<div class="grid one-full">
+							
+														
+							<div id="copyright">
+																	<p>Mingde "Harry" Zhao © 2021. All Rights Reserved.</p>
+															</div>
+							
+														<div id="credit">
+								<p>Powered by <a href="" rel="nofollow">WordPress</a>. Theme by <a href="http://alx.media" rel="nofollow">Alx</a>.</p>
+							</div>
+														
+						</div>
+						
+						<div class="grid one-full">	
+																												</div>
+						
+					</div>
+
+				</div>
+
+			</footer>
+		
+		</div>	
+	
+	</div>
+</div>
+
+<script type="text/javascript" src="http://mingde.world/wp-content/themes/textdash/js/jquery.fitvids.js" id="textdash-fitvids-js"></script>
+<script type="text/javascript" src="http://mingde.world/wp-content/themes/textdash/js/scripts.js" id="textdash-scripts-js"></script>
+<script type="text/javascript" src="http://mingde.world/wp-content/themes/textdash/js/nav.js" id="textdash-nav-script-js"></script>
+	<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+	</body>
+</html>

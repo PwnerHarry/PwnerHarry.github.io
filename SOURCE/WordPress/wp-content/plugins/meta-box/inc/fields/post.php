@@ -150,11 +150,15 @@ class RWMB_Post_Field extends RWMB_Object_Choice_Field {
 			return $options;
 		}
 
-		$query   = new WP_Query( $args );
+		// Only search by title.
+		add_filter( 'posts_search', [ __CLASS__, 'search_by_title' ], 10, 2 );
+		$query = new WP_Query( $args );
+		remove_filter( 'posts_search', [ __CLASS__, 'search_by_title' ] );
+
 		$options = array();
 		foreach ( $query->posts as $post ) {
-			$label = $post->post_title ? $post->post_title : __( '(No title)', 'meta-box' );
-			$label = self::filter( 'choice_label', $label, $field, $post );
+			$label                = $post->post_title ? $post->post_title : __( '(No title)', 'meta-box' );
+			$label                = self::filter( 'choice_label', $label, $field, $post );
 			$options[ $post->ID ] = array(
 				'value'  => $post->ID,
 				'label'  => $label,
@@ -166,6 +170,34 @@ class RWMB_Post_Field extends RWMB_Object_Choice_Field {
 		wp_cache_set( $cache_key, $options, 'meta-box-post-field' );
 
 		return $options;
+	}
+
+	/**
+	 * Only search posts by title.
+	 * WordPress searches by either title or content which is confused when users can't find their posts.
+	 *
+	 * @link https://developer.wordpress.org/reference/hooks/posts_search/
+	 */
+	public static function search_by_title( $search, $wp_query ) {
+		global $wpdb;
+		if ( empty( $search ) ) {
+			return $search;
+		}
+		$q      = $wp_query->query_vars;
+		$n      = ! empty( $q['exact'] ) ? '' : '%';
+		$search = array();
+		foreach ( (array) $q['search_terms'] as $term ) {
+			$term     = esc_sql( $wpdb->esc_like( $term ) );
+			$search[] = "($wpdb->posts.post_title LIKE '{$n}{$term}{$n}')";
+		}
+		if ( empty( $search ) ) {
+			return $search;
+		}
+		$search = ' AND (' . implode( ' AND ', $search ) . ') ';
+		if ( ! is_user_logged_in() ) {
+			$search .= " AND ($wpdb->posts.post_password = '') ";
+		}
+		return $search;
 	}
 
 	/**

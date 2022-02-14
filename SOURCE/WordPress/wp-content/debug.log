@@ -3533,3 +3533,407 @@
 [14-Feb-2022 20:47:47 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
 [14-Feb-2022 20:47:47 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
 [14-Feb-2022 20:47:47 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:14 UTC] PHP Notice:  Trying to get property 'hierarchical' of non-object in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 336
+[14-Feb-2022 21:49:14 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:14 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:14 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[14-Feb-2022 21:49:14 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:474
+[14-Feb-2022 21:49:14 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:331
+[14-Feb-2022 21:49:14 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:307
+[14-Feb-2022 21:49:14 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[14-Feb-2022 21:49:14 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[14-Feb-2022 21:49:14 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[14-Feb-2022 21:49:14 UTC] PHP   9. get_post_permalink() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[14-Feb-2022 21:49:14 UTC] PHP Notice:  Trying to get property 'query_var' of non-object in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 346
+[14-Feb-2022 21:49:14 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:14 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:14 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[14-Feb-2022 21:49:14 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:474
+[14-Feb-2022 21:49:14 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:331
+[14-Feb-2022 21:49:14 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:307
+[14-Feb-2022 21:49:14 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[14-Feb-2022 21:49:14 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[14-Feb-2022 21:49:14 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[14-Feb-2022 21:49:14 UTC] PHP   9. get_post_permalink() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[14-Feb-2022 21:49:14 UTC] PHP Notice:  Trying to get property 'labels' of non-object in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[14-Feb-2022 21:49:14 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:14 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:14 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[14-Feb-2022 21:49:14 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:474
+[14-Feb-2022 21:49:14 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:331
+[14-Feb-2022 21:49:14 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:307
+[14-Feb-2022 21:49:14 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[14-Feb-2022 21:49:14 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[14-Feb-2022 21:49:14 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[14-Feb-2022 21:49:14 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[14-Feb-2022 21:49:14 UTC] PHP Notice:  Trying to get property 'name' of non-object in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[14-Feb-2022 21:49:14 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:14 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:14 UTC] PHP   2. do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:187
+[14-Feb-2022 21:49:14 UTC] PHP   3. WP_Hook->do_action() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:474
+[14-Feb-2022 21:49:14 UTC] PHP   4. WP_Hook->apply_filters() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:331
+[14-Feb-2022 21:49:14 UTC] PHP   5. wp_static_html_output_ajax() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:307
+[14-Feb-2022 21:49:14 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[14-Feb-2022 21:49:14 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[14-Feb-2022 21:49:14 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[14-Feb-2022 21:49:14 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[14-Feb-2022 21:49:22 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:22 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:22 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:22 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:22 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:22 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:22 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:22 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:22 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:22 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:22 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:22 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:22 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:22 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:22 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:23 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:23 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:23 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:23 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:23 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:23 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:23 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:23 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:23 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:23 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:23 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:23 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:23 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:23 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:23 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:23 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:23 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:23 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:23 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:23 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:23 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:23 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:23 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:23 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:23 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:23 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:23 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:23 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:23 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:23 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:24 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:24 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:24 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:24 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:24 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:24 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:24 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:24 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:24 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:24 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:24 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:24 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:24 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:24 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:24 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:24 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:24 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:24 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:24 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:24 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:24 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:24 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:24 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:24 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:24 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:24 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:24 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:24 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:24 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:24 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:25 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:25 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:25 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:25 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:25 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:25 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:25 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:25 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:25 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:25 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:25 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:25 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:25 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:25 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:25 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:25 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:25 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:25 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:25 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:25 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:25 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:25 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:25 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:25 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:25 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:25 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:25 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:25 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:25 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:25 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:26 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:26 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:26 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:26 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:26 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:26 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:26 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:26 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:26 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:26 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:26 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:26 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:26 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:26 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:26 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:26 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:26 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:26 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:26 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:26 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:26 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:26 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:26 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:26 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:26 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:26 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:26 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:26 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:26 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:26 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:27 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:27 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:27 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:27 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:27 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:27 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:27 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:27 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:27 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:27 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:27 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:27 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:27 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:27 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:27 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:27 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:27 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:27 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:27 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:27 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:27 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:27 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:27 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:27 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:27 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:27 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:27 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:27 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:27 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:27 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:28 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:28 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:28 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:28 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:28 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:28 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:28 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:28 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:28 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:28 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:28 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:28 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:28 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:28 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:28 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:29 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:29 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:29 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:29 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:29 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:29 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:29 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:29 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:29 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:29 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:29 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:29 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:29 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:29 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:29 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:29 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:29 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:29 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:29 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:29 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:29 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:29 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:29 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:29 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:29 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:29 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:29 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:29 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:29 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:29 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:32 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:32 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:32 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:32 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:32 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:32 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:32 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:32 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:32 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:32 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:32 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:32 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:32 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:32 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:32 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:33 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:33 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:33 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:33 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:33 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:33 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:33 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:33 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:33 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:33 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:33 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:33 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:33 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:33 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:33 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:34 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:34 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:34 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:34 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:34 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:34 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:34 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:34 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:34 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:34 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:34 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:34 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:34 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:34 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:34 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:34 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:34 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:34 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:34 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:34 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:34 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:34 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:34 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:34 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:34 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:34 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:34 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:34 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:34 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:34 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:35 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:35 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:35 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:35 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:35 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:35 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:35 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:35 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:35 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:35 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:35 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:35 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:35 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:35 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:35 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:36 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:36 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:36 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:36 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:36 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:36 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:36 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:36 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:36 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:36 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:36 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:36 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:36 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:36 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:36 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:37 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:37 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:37 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:37 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:37 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:37 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:37 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:37 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:37 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:37 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:37 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:37 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:37 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:37 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:37 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:38 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:38 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:38 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:38 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:38 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:38 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:38 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:38 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:38 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:38 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:38 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:38 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:38 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:38 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:38 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:38 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:38 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:38 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:38 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:38 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:38 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:38 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:38 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:38 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:38 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:38 UTC] PHP   9. SiteCrawler->crawl_site() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:38 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:38 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:38 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:38 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2
+[14-Feb-2022 21:49:40 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php on line 2
+[14-Feb-2022 21:49:40 UTC] PHP Stack trace:
+[14-Feb-2022 21:49:40 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[14-Feb-2022 21:49:40 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:22
+[14-Feb-2022 21:49:40 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[14-Feb-2022 21:49:40 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[14-Feb-2022 21:49:40 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:418
+[14-Feb-2022 21:49:40 UTC] PHP   6. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:17
+[14-Feb-2022 21:49:40 UTC] PHP   7. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\Dispatcher.php:2
+[14-Feb-2022 21:49:40 UTC] PHP   8. SiteCrawler->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:40 UTC] PHP   9. SiteCrawler->crawl_discovered_links() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:40 UTC] PHP  10. SiteCrawler->crawlABitMore() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:40 UTC] PHP  11. SiteCrawler->loadFileForProcessing() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:40 UTC] PHP  12. HTMLProcessor->processHTML() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\SiteCrawler.php:2
+[14-Feb-2022 21:49:40 UTC] PHP  13. HTMLProcessor->processAnchor() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\HTMLProcessor.php:2

@@ -3,8 +3,8 @@
 Contributors: alxmedia
 Tags:
 Requires at least: 4.9
-Tested up to: 5.6
-Stable tag: 1.1.2
+Tested up to: 6.0
+Stable tag: 1.1.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,6 +15,9 @@ Extends AlxMedia themes with additional features such as social share links, cus
 Extends AlxMedia themes with additional features such as social share links, custom sidebars, thumbnail image upscale and post format meta boxes. Also includes 2 flexible custom widgets, Alx Tabs and Alx Posts.
 
 == Changelog ==
+
+= 1.1.3 - 2022-06-12 =
+* Update tested up to version 
 
 = 1.1.2 - 2021-01-03 =
 * Update tested up to version 

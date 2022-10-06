@@ -95,12 +95,15 @@ body{background-color:var(--base-2);color:var(--contrast);}a{color:var(--accent)
 
 
 
-<p class="has-medium-font-size">[Published at NeurIPS 2021] We introduce into reinforcement learning inductive biases inspired by higher-order cognitive functions in humans. These architectural constraints enable the planning to direct attention dynamically to the interesting parts of the state at each step of imagined future trajectories.</p>
+<p class="has-medium-font-size"><em>[NeurIPS 2021] This paper received media coverage from <a href="https://medium.com/syncedreview/yoshua-bengio-team-designs-consciousness-inspired-planning-agent-for-model-based-rl-501b4d7e80f5" data-type="URL" data-id="https://medium.com/syncedreview/yoshua-bengio-team-designs-consciousness-inspired-planning-agent-for-model-based-rl-501b4d7e80f5">Synced Review</a>,  <a href="https://mila.quebec/en/article/a-consciousness-inspired-planning-agent-for-model-based-reinforcement-learning/">The Mila Blog</a> (available in English & French), <a href="https://www.marktechpost.com/2021/06/18/ai-researchers-including-yoshua-bengio-introduce-a-consciousness-inspired-planning-agent-for-model-based-reinforcement-learning/" data-type="URL" data-id="https://www.marktechpost.com/2021/06/18/ai-researchers-including-yoshua-bengio-introduce-a-consciousness-inspired-planning-agent-for-model-based-reinforcement-learning/">MarkTechPost</a>, etc.</em></p>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="http://mingde.world/wp-content/uploads/2021/06/image-1.png" alt="" class="wp-image-233" width="610" height="500"><figcaption><em>A birdseye view of the overall design</em></figcaption></figure></div>
+<p class="has-medium-font-size">We introduce into reinforcement learning inductive biases inspired by higher-order cognitive functions in humans. These architectural constraints enable the planning to direct attention dynamically to the interesting parts of the state at each step of imagined future trajectories.</p>
 
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" src="http://mingde.world/wp-content/uploads/2021/06/image-1.png" alt="" class="wp-image-233" width="610" height="500"><figcaption><em>A birdseye view of the overall design</em></figcaption></figure></div>
 
 
 <p>Whether when planning our paths home from the office or from a hotel to an airport in an unfamiliar city, we typically focus on a small subset of relevant variables, e.g. the change in position or the presence of traffic. An interesting hypothesis of how this path planning skill generalizes across scenarios is that it may be due to computation associated with the conscious processing of information. Conscious attention focuses on a few necessary environment elements, with the help of an internal abstract representation of the world. This pattern, also known as consciousness in the first sense (C1), has been theorized to enable humans’ exceptional adaptability and learning efficiency. A central characterization of conscious processing is that it involves a bottleneck, which forces one to handle dependencies between very few characteristics of the environment at a time. Though this focus on a small subset of the available information may seem limiting, it may facilitate Out-Of-Distribution (OOD) and systematic generalization toother situations where the ignored variables are different and yet still irrelevant. In this paper, we propose an architecture which allows us to encode some of these ideas into reinforcement learning agents.</p>
@@ -110,9 +113,8 @@ body{background-color:var(--base-2);color:var(--contrast);}a{color:var(--accent)
 <p>Our proposal is to take inspiration from human consciousness to build an architecture which learns a useful state space and in which attention can be focused on a small set of variables at any time. This idea of “partial planning” is enabled by modern deep RL techniques. Specifically, we propose an end-to-end latent-space MBRL agent which does not require reconstructing the observations, as in most existing works, and uses Model Predictive Control (MPC) for decision-time planning. From an observation, the agent encodes a set of objects as a state, with a selective attention bottleneck mechanism to plan over selected subsets of the state (Sec. 4). Our experiments show that the inductive biases improve a specific form of OOD generalization, where consistent dynamics are preserved across seemingly different environment settings (Sec. 5).</p>
 
 
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="886" height="209" src="http://mingde.world/wp-content/uploads/2021/06/image.png" alt="" class="wp-image-229" srcset="http://mingde.world/wp-content/uploads/2021/06/image.png 886w,http://mingde.world/wp-content/uploads/2021/06/image-300x71.png 300w,http://mingde.world/wp-content/uploads/2021/06/image-768x181.png 768w" sizes="(max-width: 886px) 100vw, 886px"><figcaption><em>Experiment showing the promising OOD generalization ability of the bottleneck</em></figcaption></figure></div>
-
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img loading="lazy" width="886" height="209" src="http://mingde.world/wp-content/uploads/2021/06/image.png" alt="" class="wp-image-229" srcset="http://mingde.world/wp-content/uploads/2021/06/image.png 886w,http://mingde.world/wp-content/uploads/2021/06/image-300x71.png 300w,http://mingde.world/wp-content/uploads/2021/06/image-768x181.png 768w" sizes="(max-width: 886px) 100vw, 886px"><figcaption><em>Experiment showing the promising OOD generalization ability of the bottleneck</em></figcaption></figure></div>
 
 
 <p><strong><span class="has-inline-color has-accent-color">Interesting Q & As:</span></strong></p>

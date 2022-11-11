@@ -192,7 +192,7 @@ embed, iframe, object {max-width: 100%;}
 .one-container.both-right .site-main, .one-container.right-sidebar .site-main {margin-right: 40px;}
 .one-container.both-left .site-main, .one-container.left-sidebar .site-main {margin-left: 40px;}
 .one-container.both-sidebars .site-main {margin: 0 40px 0 40px;}
-.one-container.archive .post:not(:last-child), .one-container.blog .post:not(:last-child) {padding-bottom: 40px;}
+.one-container.archive .post:not(:last-child):not(.is-loop-template-item), .one-container.blog .post:not(:last-child):not(.is-loop-template-item) {padding-bottom: 40px;}
 .one-container .site-content {padding: 40px;}
 .separate-containers .comments-area, .separate-containers .inside-article, .separate-containers .page-header, .separate-containers .paging-navigation {padding: 40px;}
 .separate-containers .site-main {margin: 20px;}

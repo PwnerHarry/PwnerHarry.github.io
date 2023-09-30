@@ -16,77 +16,27 @@ function alx_ext_sharrre_template() {
 
 	<div class="sharrre-container sharrre-header group">
 		<span><?php esc_html_e('Share','alx'); ?></span>
-		<div id="twitter" data-url="<?php the_permalink(); ?>" data-text="<?php echo the_title_attribute(); ?>" data-title="<?php esc_attr_e('Tweet', 'alx'); ?>"></div>
-		<div id="facebook" data-url="<?php the_permalink(); ?>" data-text="<?php echo the_title_attribute(); ?>" data-title="<?php esc_attr_e('Like', 'alx'); ?>"></div>
-		<div id="pinterest" data-url="<?php the_permalink(); ?>" data-text="<?php echo the_title_attribute(); ?>" data-title="<?php esc_attr_e('Pin It', 'alx'); ?>"></div>
-		<div id="linkedin" data-url="<?php the_permalink(); ?>" data-text="<?php echo the_title_attribute(); ?>" data-title="<?php esc_attr_e('Share on LinkedIn', 'alx'); ?>"></div>
+		<div id="twitter" class="sharrre">
+			<a class="box group" href="https://twitter.com/intent/tweet?url=<?php the_permalink(); ?>&text=<?php the_title_attribute(); ?>" title="<?php esc_attr_e('Share on X', 'alx'); ?>">
+				<div class="count"><i class="fas fa-plus"></i></div><div class="share"><i class="fab fa-x-twitter"></i></div>
+			</a>
+		</div>
+		<div id="facebook" class="sharrre">
+			<a class="box group" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" title="<?php esc_attr_e('Share on Facebook', 'alx'); ?>">
+				<div class="count"><i class="fas fa-plus"></i></div><div class="share"><i class="fab fa-facebook-square"></i></div>
+			</a>
+		</div>
+		<div id="pinterest" class="sharrre">
+			<a class="box group" href="https://pinterest.com/pin/create/button/?url=<?php the_permalink(); ?>&media=&description=<?php the_title_attribute(); ?>" title="<?php esc_attr_e('Share on Pinterest', 'alx'); ?>">
+				<div class="count"><i class="fas fa-plus"></i></div><div class="share"><i class="fab fa-pinterest"></i></div>
+			</a>
+		</div>
+		<div id="linkedin" class="sharrre">
+			<a class="box group" href="https://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>" title="<?php esc_attr_e('Share on LinkedIn', 'alx'); ?>">
+				<div class="count"><i class="fas fa-plus"></i></div><div class="share"><i class="fab fa-linkedin"></i></div>
+			</a>
+		</div>
 	</div><!--/.sharrre-container-->
-
-	<script type="text/javascript">
-		// Sharrre
-		jQuery(document).ready(function(){
-			jQuery('#twitter').sharrre({
-				share: {
-					twitter: true
-				},
-				template: '<a class="box group" href="#"><div class="count" href="#"><i class="fas fa-plus"></i></div><div class="share"><i class="fab fa-twitter"></i></div></a>',
-				enableHover: false,
-				enableTracking: true,
-				buttons: { twitter: {via: '<?php echo esc_attr( get_theme_mod('twitter-username') ); ?>'}},
-				click: function(api, options){
-					api.simulateClick();
-					api.openPopup('twitter');
-				}
-			});
-			jQuery('#facebook').sharrre({
-				share: {
-					facebook: true
-				},
-				template: '<a class="box group" href="#"><div class="count" href="#"><i class="fas fa-plus"></i></div><div class="share"><i class="fab fa-facebook-square"></i></div></a>',
-				enableHover: false,
-				enableTracking: true,
-				buttons:{layout: 'box_count'},
-				click: function(api, options){
-					api.simulateClick();
-					api.openPopup('facebook');
-				}
-			});
-			jQuery('#pinterest').sharrre({
-				share: {
-					pinterest: true
-				},
-				template: '<a class="box group" href="#"><div class="count" href="#"><i class="fas fa-plus"></i></div><div class="share"><i class="fab fa-pinterest"></i></div></a>',
-				enableHover: false,
-				enableTracking: true,
-				buttons: {
-				pinterest: {
-					description: '<?php echo the_title(); ?>'<?php if( has_post_thumbnail() ){ ?>,media: '<?php echo wp_get_attachment_url( get_post_thumbnail_id() ); ?>'<?php } ?>
-					}
-				},
-				click: function(api, options){
-					api.simulateClick();
-					api.openPopup('pinterest');
-				}
-			});
-			jQuery('#linkedin').sharrre({
-				share: {
-					linkedin: true
-				},
-				template: '<a class="box group" href="#"><div class="count" href="#"><i class="fas fa-plus"></i></div><div class="share"><i class="fab fa-linkedin"></i></div></a>',
-				enableHover: false,
-				enableTracking: true,
-				buttons: {
-				linkedin: {
-					description: '<?php echo the_title(); ?>'<?php if( has_post_thumbnail() ){ ?>,media: '<?php echo wp_get_attachment_url( get_post_thumbnail_id() ); ?>'<?php } ?>
-					}
-				},
-				click: function(api, options){
-					api.simulateClick();
-					api.openPopup('linkedin');
-				}
-			});
-
-		});
-	</script>
+	
 	<?php
 }

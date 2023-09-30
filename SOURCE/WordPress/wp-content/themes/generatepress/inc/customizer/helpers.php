@@ -208,8 +208,25 @@ if ( ! function_exists( 'generate_sanitize_hex_color' ) ) {
 			return $color;
 		}
 
+		// Sanitize CSS variables.
 		if ( strpos( $color, 'var(' ) !== false ) {
 			return sanitize_text_field( $color );
+		}
+
+		// Sanitize rgb() values.
+		if ( strpos( $color, 'rgb(' ) !== false ) {
+			$color = str_replace( ' ', '', $color );
+
+			sscanf( $color, 'rgb(%d,%d,%d)', $red, $green, $blue );
+			return 'rgb(' . $red . ',' . $green . ',' . $blue . ')';
+		}
+
+		// Sanitize rgba() values.
+		if ( strpos( $color, 'rgba' ) !== false ) {
+			$color = str_replace( ' ', '', $color );
+			sscanf( $color, 'rgba(%d,%d,%d,%f)', $red, $green, $blue, $alpha );
+
+			return 'rgba(' . $red . ',' . $green . ',' . $blue . ',' . $alpha . ')';
 		}
 
 		return '';
@@ -323,7 +340,7 @@ function generate_do_control_inline_scripts() {
 		'generate-customizer-controls',
 		trailingslashit( get_template_directory_uri() ) . 'assets/dist/customizer.js',
 		// We're including wp-color-picker for localized strings, nothing more.
-		array( 'customize-controls', 'wp-i18n', 'wp-components', 'wp-element', 'jquery', 'customize-base', 'wp-color-picker' ),
+		array( 'lodash', 'react', 'react-dom', 'wp-components', 'wp-element', 'wp-hooks', 'wp-i18n', 'wp-polyfill', 'jquery', 'customize-base', 'customize-controls', 'wp-color-picker' ),
 		GENERATE_VERSION,
 		true
 	);
@@ -352,6 +369,7 @@ function generate_do_control_inline_scripts() {
 		array(
 			'palette' => $colors,
 			'showGoogleFonts' => apply_filters( 'generate_font_manager_show_google_fonts', true ),
+			'colorPickerShouldShift' => function_exists( 'did_filter' ),
 		)
 	);
 

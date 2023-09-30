@@ -3,8 +3,8 @@
 Contributors: alxmedia
 Tags:
 Requires at least: 4.9
-Tested up to: 6.0
-Stable tag: 1.1.3
+Tested up to: 6.2.2
+Stable tag: 1.1.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,6 +15,11 @@ Extends AlxMedia themes with additional features such as social share links, cus
 Extends AlxMedia themes with additional features such as social share links, custom sidebars, thumbnail image upscale and post format meta boxes. Also includes 2 flexible custom widgets, Alx Tabs and Alx Posts.
 
 == Changelog ==
+
+= 1.1.4 - 2023-08-06 =
+* Remove sharrre javascript
+* Add normal sharing links instead of sharrre
+* Add the Twitter X icon
 
 = 1.1.3 - 2022-06-12 =
 * Update tested up to version 

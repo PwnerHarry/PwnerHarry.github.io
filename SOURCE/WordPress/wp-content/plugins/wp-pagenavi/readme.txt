@@ -3,8 +3,8 @@ Contributors: GamerZ, scribu
 Donate link: https://lesterchan.net/site/donation/  
 Tags: navigation, pagination, paging, pages  
 Requires at least: 3.2  
-Tested up to: 5.6  
-Stable tag: 2.94.0  
+Tested up to: 6.3  
+Stable tag: 2.94.1  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -103,9 +103,6 @@ function theme_pagination_class($class_name) {
   return $class_name;
 }
 ~~~
- 
-### Build Status
-[![Build Status](https://travis-ci.org/lesterchan/wp-pagenavi.svg?branch=master)](https://travis-ci.org/lesterchan/wp-pagenavi)
 
 ### Development
 * [https://github.com/lesterchan/wp-pagenavi](https://github.com/lesterchan/wp-pagenavi "https://github.com/lesterchan/wp-pagenavi")
@@ -147,6 +144,9 @@ You can do that like so:
 `<?php wp_pagenavi( array( 'options' => PageNavi_Core::$options->get_defaults() ) ); ?>`
 
 ## Changelog
+### 2.94.1
+* FIXED: PHP 8.2 warnings
+
 ### 2.94.0
 * NEW: Add args param on wp_pagenavi filter. Props @asadowski10
 * NEW: Improve accessibility of nav links. Props @carlabobak

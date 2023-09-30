@@ -1,19 +1,12 @@
 <?php
-/**
- * The Button group.
- *
- * @package Meta Box
- */
+defined( 'ABSPATH' ) || die;
 
 /**
- * Button group class.
+ * The Button group.
  */
 class RWMB_Button_Group_Field extends RWMB_Choice_Field {
-	/**
-	 * Enqueue scripts and styles.
-	 */
 	public static function admin_enqueue_scripts() {
-		wp_enqueue_style( 'rwmb-button-group', RWMB_CSS_URL . 'button-group.css', '', RWMB_VER );
+		wp_enqueue_style( 'rwmb-button-group', RWMB_CSS_URL . 'button-group.css', [], RWMB_VER );
 		wp_enqueue_script( 'rwmb-button-group', RWMB_JS_URL . 'button-group.js', [ 'rwmb' ], RWMB_VER, true );
 	}
 
@@ -29,11 +22,11 @@ class RWMB_Button_Group_Field extends RWMB_Choice_Field {
 		$walker  = new RWMB_Walker_Input_List( $field, $meta );
 
 		$output  = sprintf(
-			'<ul class="rwmb-button-input-list %s">',
+			'<fieldset class="rwmb-button-input-list %s">',
 			$field['inline'] ? 'rwmb-inline' : ''
 		);
 		$output .= $walker->walk( $options, -1 );
-		$output .= '</ul>';
+		$output .= '</fieldset>';
 
 		return $output;
 	}

@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>Skipper: Combining Spatial and Temporal Abstraction in Planning for Better Generalization – Mingde "Harry" Zhao</title>
+	<title>Skipper: Combining Spatial and Temporal Abstraction for Better Generalization – Mingde "Harry" Zhao</title>
 <meta name="robots" content="max-image-preview:large">
 <meta name="viewport" content="width=device-width, initial-scale=1"><link href="https://fonts.gstatic.com" crossorigin rel="preconnect">
 <link href="https://fonts.googleapis.com" crossorigin rel="preconnect">
@@ -79,36 +79,53 @@ body{background-color:var(--base-2);color:var(--contrast);}a{color:var(--accent)
 	<div class="inside-article">
 		
 			<header class="entry-header" aria-label="Content">
-				<h1 class="entry-title" itemprop="headline">Skipper: Combining Spatial and Temporal Abstraction in Planning for Better Generalization</h1>			</header>
+				<h1 class="entry-title" itemprop="headline">Skipper: Combining Spatial and Temporal Abstraction for Better Generalization</h1>			</header>
 
 			
 		<div class="entry-content" itemprop="text">
 			
-<p class="has-text-align-center"><strong>Mingde Harry Zhao, Safa Alver, Harm van Seijen, Romain Laroche, Doina Precup, Yoshua Bengio</strong></p>
+<p class="has-text-align-center" style="font-size:18px"><strong><em>Mingde Harry Zhao, Safa Alver, Harm van Seijen, Romain Laroche, Doina Precup, Yoshua Bengio</em></strong></p>
 
 
 
-<p class="has-text-align-center has-small-font-size">(Work largely done during Harry, Harm and Romain’s time at Microsoft Research Montreal)</p>
+<p class="has-text-align-center"><a href="http://mingde.world/wp-content/uploads/2023/09/skipper_arxiv_main.pdf" data-type="attachment" data-id="495">paper pdf</a> (arXiv pending) / <a href="https://github.com/PwnerHarry/Skipper" data-type="link" data-id="https://github.com/PwnerHarry/Skipper">GitHub</a></p>
 
 
 
-<p class="has-text-align-center"><a href="http://mingde.world/wp-content/uploads/2023/09/skipper_arxiv_main.pdf" data-type="attachment" data-id="495">paper pdf</a> (arXiv link pending) / <a href="https://github.com/PwnerHarry/Skipper" data-type="link" data-id="https://github.com/PwnerHarry/Skipper">GitHub</a></p>
+<p class="has-text-align-center has-small-font-size">(work largely done during Harry, Harm and Romain’s time at MSR)</p>
 
 
 
-<p><em>This is the second paper that follows the line of integrating conscious information processing of the brain into Reinforcement Learning (RL) agents. Specifically, this paper seeks to address the inabilities of RL agents in generalizing in longer-term reasoning scenarios: a factory trained RL agent often cannot generalize its learned skills in practice. It builds upon <a href="http://mingde.world/the-new-umoma-opens-its-doors-2/a-step-towards-conscious-planning/" data-type="page" data-id="205">our previous work on spatial abstraction (NeurIPS 2021)</a> in planning, raising the attention of the missing flavor of spatial abstraction in the existing temporal abstraction frameworks.</em></p>
+<p class="has-text-align-center has-base-background-color has-background has-medium-font-size"><em>This is our 2nd work on integrating conscious information processing behavior into Reinforcement Learning (RL) agents. Specifically, this paper seeks to address the inabilities of RL agents to generalize its learned skills in longer-term reasoning scenarios: a trained RL agent often cannot perform well in the target task in practice due to the incompetence to handle training-evaluation discrepancy. It builds upon <a href="http://mingde.world/the-new-umoma-opens-its-doors-2/a-step-towards-conscious-planning/" data-type="page" data-id="205">our previous work on spatial abstraction (NeurIPS 2021)</a> in planning, raising the attention of the missing flavor of spatial abstraction in the existing temporal abstraction frameworks.</em></p>
 
 
 
-<figure class="wp-block-image size-large is-style-default"><img decoding="async" fetchpriority="high" width="1024" height="214" src="http://mingde.world/wp-content/uploads/2023/09/fig_overall-1024x214.jpg" alt="" class="wp-image-496" srcset="http://mingde.world/wp-content/uploads/2023/09/fig_overall-1024x214.jpg 1024w,http://mingde.world/wp-content/uploads/2023/09/fig_overall-300x63.jpg 300w,http://mingde.world/wp-content/uploads/2023/09/fig_overall-768x160.jpg 768w,http://mingde.world/wp-content/uploads/2023/09/fig_overall-1536x321.jpg 1536w,http://mingde.world/wp-content/uploads/2023/09/fig_overall-2048x428.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+<figure class="wp-block-image size-large is-style-default"><img decoding="async" fetchpriority="high" width="1024" height="256" src="http://mingde.world/wp-content/uploads/2023/10/fig_overall-1024x256.png" alt="The overall framework of Skipper
+" class="wp-image-517" srcset="http://mingde.world/wp-content/uploads/2023/10/fig_overall-1024x256.png 1024w,http://mingde.world/wp-content/uploads/2023/10/fig_overall-300x75.png 300w,http://mingde.world/wp-content/uploads/2023/10/fig_overall-768x192.png 768w,http://mingde.world/wp-content/uploads/2023/10/fig_overall-1536x384.png 1536w,http://mingde.world/wp-content/uploads/2023/10/fig_overall.png 1790w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
 
 
 
-<p>We propose <strong><em>Skipper</em></strong>, a model-based RL agent that utilizes <strong>spatial</strong> and <strong>temporal</strong> abstractions to generalize learned skills in novel situations. It automatically decomposes the task at hand into smaller-scale, more manageable subtasks and hence enables sparse decision-making and focuses its computation on the relevant parts of the environment. This relies on the definition of a high-level proxy problem represented as a directed graph, in which vertices and edges are learned end-to-end using hindsight. Our theoretical analyses provide performance guarantees under appropriate assumptions and establish where our approach is expected to be helpful. Generalization-focused experiments validate Skipper’s significant advantage in zero-shot generalization, compared to existing state-of-the-art hierarchical planning methods.</p>
+<p class="has-medium-font-size">We propose <strong><em>Skipper</em></strong>, a model-based RL agent that utilizes <strong>spatial</strong> and <strong>temporal</strong> abstractions to generalize learned skills in novel situations. It automatically decomposes the task at hand into smaller-scale, more manageable subtasks and hence enables sparse decision-making and focuses its computation on the relevant parts of the environment. This relies on the definition of a high-level proxy problem represented as a directed graph, in which vertices and edges are learned end-to-end using hindsight. Our theoretical analyses provide performance guarantees under appropriate assumptions and establish where our approach is expected to be helpful. Generalization-focused experiments validate Skipper’s significant advantage in zero-shot generalization, compared to existing state-of-the-art hierarchical planning methods.</p>
 
 
 
-<p>More contents coming soon!</p>
+<figure class="wp-block-table is-style-stripes has-small-font-size"><table><thead><tr><th></th><th><em>Skipper</em></th><th>Director</th><th>LEAP</th><th>adapted LEAP variant </th></tr></thead><tbody><tr><td><strong>Decision-Time Planning</strong></td><td>Dynamic Programming (fast)</td><td>No (only sample a conditioning latent)</td><td>Evolutionary Algorithms (slow)</td><td>Evolutionary Algorithms (slow)</td></tr><tr><td><strong>Offline Planning</strong></td><td>No</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td><strong>Compatible with Terminal States</strong></td><td>Yes</td><td>Theoretically yes, suffer in experiments</td><td>No (TDM)</td><td>Yes</td></tr><tr><td><strong>Pretraining</strong></td><td>No</td><td>No</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Scope</strong></td><td>Theorem Condition, tested in navigation</td><td>General RL</td><td>Navigation</td><td>Navigation</td></tr><tr><td><strong>Sample Scheme</strong></td><td>Simple HER</td><td>Mixed Strategies</td><td>Mixed Strategies</td><td>Simple HER</td></tr><tr><td><strong>Generalizable Model</strong></td><td>Yes</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td><strong>Generator Representation</strong></td><td>Discrete (partial description)</td><td>Discrete</td><td>Continuous</td><td>Discrete (partial description)</td></tr><tr><td><strong>Delusion Suppression</strong></td><td>Compatible, improves behavior</td><td>No</td><td>Compatible</td><td>Compatible, improves behavior dramatically</td></tr><tr><td><strong>Reconstruction</strong></td><td>Generator Only (not conditioned on actions), from state to future states</td><td>Representation and Model (atomic time-steps), from state to next state</td><td>Generator Only (not conditioned on actions), from state to state itself</td><td>Generator Only (not conditioned on actions), from state to future states</td></tr><tr><td><strong>OOD Adaptability</strong></td><td>good if the generator adapts well</td><td>poor because of overfitting value estimators on training tasks</td><td>good if the generator adapts well</td><td>good if the generator adapts well</td></tr><tr><td><br><br><br><br><strong>Limitations</strong><br><br><br><br></td><td>Not tested in partially-observable settings, not tested in generic RL settings; Checkpoints not task-aware</td><td>Cannot generalize well</td><td>very prone to delusional paths, not compatible with terminal states, sensitive to time budget for each sub-goal; Subgoals not task-aware</td><td>very prone to delusional paths; Subgoals not task-aware</td></tr></tbody></table><figcaption class="wp-element-caption"><em>Comparison of the characteristics of the Hierarchical Planning (HP) agents in this work </em></figcaption></figure>
+
+
+
+<p></p>
+
+
+
+<p>In the following figure, we showcase a size-64 batch of checkpoints generated by a trained <strong><em>Skipper</em></strong> agent, from the current state shown in the left. The non-existent checkpoints (that don’t belong to the state space) are color-inverted.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="512" src="http://mingde.world/wp-content/uploads/2023/10/fig_example_checkpoints-1024x512.png" alt="" class="wp-image-512" srcset="http://mingde.world/wp-content/uploads/2023/10/fig_example_checkpoints-1024x512.png 1024w,http://mingde.world/wp-content/uploads/2023/10/fig_example_checkpoints-300x150.png 300w,http://mingde.world/wp-content/uploads/2023/10/fig_example_checkpoints-768x384.png 768w,http://mingde.world/wp-content/uploads/2023/10/fig_example_checkpoints.png 1231w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+
+
+
+<p><strong><em>More contents coming soon!</em></strong></p>
 		</div>
 
 			</div>

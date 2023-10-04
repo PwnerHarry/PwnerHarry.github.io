@@ -96,7 +96,7 @@ body{background-color:var(--base-2);color:var(--contrast);}a{color:var(--accent)
 
 
 
-<p class="has-text-align-center has-base-background-color has-background has-medium-font-size"><em>This is our 2nd work on integrating conscious information processing behavior into Reinforcement Learning (RL) agents. Specifically, this paper seeks to address the inabilities of RL agents to generalize its learned skills in longer-term reasoning scenarios: a trained RL agent often cannot perform well in the target task in practice due to the incompetence to handle training-evaluation discrepancy. It builds upon <a href="https://PwnerHarry.github.io/the-new-umoma-opens-its-doors-2/a-step-towards-conscious-planning/" data-type="page" data-id="205">our previous work on spatial abstraction (NeurIPS 2021)</a> in planning, raising the attention of the missing flavor of spatial abstraction in the existing temporal abstraction frameworks.</em></p>
+<p class="has-text-align-center has-base-background-color has-background has-medium-font-size"><em>This is our 2nd work on integrating conscious information processing behavior into Reinforcement Learning (RL) agents. Specifically, this paper seeks to address the inabilities of RL agents to generalize its learned skills in longer-term reasoning scenarios: a trained RL agent often cannot perform well in the target task due to the incompetence to handle training-evaluation discrepancy. This work builds upon <a href="https://PwnerHarry.github.io/the-new-umoma-opens-its-doors-2/a-step-towards-conscious-planning/" data-type="page" data-id="205">our previous work on spatial abstraction (NeurIPS 2021)</a> in planning, raising the attention of the missing flavor of spatial abstraction in the existing temporal abstraction frameworks.</em></p>
 
 
 
@@ -105,7 +105,35 @@ body{background-color:var(--base-2);color:var(--contrast);}a{color:var(--accent)
 
 
 
-<p class="has-medium-font-size">We propose <strong><em>Skipper</em></strong>, a model-based RL agent that utilizes <strong>spatial</strong> and <strong>temporal</strong> abstractions to generalize learned skills in novel situations. It automatically decomposes the task at hand into smaller-scale, more manageable subtasks and hence enables sparse decision-making and focuses its computation on the relevant parts of the environment. This relies on the definition of a high-level proxy problem represented as a directed graph, in which vertices and edges are learned end-to-end using hindsight. Our theoretical analyses provide performance guarantees under appropriate assumptions and establish where our approach is expected to be helpful. Generalization-focused experiments validate Skipper’s significant advantage in zero-shot generalization, compared to existing state-of-the-art hierarchical planning methods.</p>
+<p class="has-medium-font-size">We propose <strong><em>Skipper</em></strong>, a model-based RL agent that utilizes <strong>spatial</strong> and <strong>temporal</strong> abstractions to generalize learned skills in novel situations. It automatically decomposes the task at hand into smaller-scale, more manageable subtasks and hence enables sparse decision-making and focuses its computation on the relevant parts of the environment. This relies on the definition of a high-level <span style="text-decoration: underline;">proxy problem</span> represented as a directed graph, in which vertices and edges are learned end-to-end using hindsight. Our theoretical analyses provide performance guarantees under appropriate assumptions and establish where our approach is expected to be helpful. Generalization-focused experiments validate Skipper’s significant advantage in zero-shot generalization, compared to existing state-of-the-art hierarchical planning methods.</p>
+
+
+
+<p class="has-medium-font-size">The highlights of this work include:</p>
+
+
+
+<p class="has-medium-font-size"><strong>Theory-Motivated Divide-and-Conquer</strong>: we propose proxy problems with which a divide and conquer strategy could implement over longer-term reasoning for better generalization. Theoretical analyses are presented to show the applicable scenario and performance guarantees;</p>
+
+
+
+<p class="has-medium-font-size"><strong>Spatio-temporal abstraction</strong>: temporal abstraction allows us to break down the given task into smaller ones, while spatial abstraction over the state features through an attention mechanism is used to improve local learning and generalization;</p>
+
+
+
+<p class="has-medium-font-size"><strong>Decision-time planning</strong> is employed due to its ability to improve the policy in novel situations;</p>
+
+
+
+<p class="has-medium-font-size"><strong>Learning end-to-end from hindsight, off-policy</strong>: to maximize sample efficiency and the ease of training, we propose to use auxiliary (off-)policy methods for edge estimation, and learn a context-conditioned checkpoint generation, both from hindsight experience replay;</p>
+
+
+
+<p class="has-medium-font-size"><strong>Higher quality proxies</strong>: we introduce pruning techniques to improve the sparsity of the proxy problems, which leads to better quality;</p>
+
+
+
+<p class="has-medium-font-size"><strong>Delusion suppression</strong>: we propose a delusion suppression technique to minimize the behavior of chasing non-existent outcomes. This is done by exposing the edge estimators to targets that would otherwise not exist in experience.<br></p>
 
 
 
@@ -117,7 +145,7 @@ body{background-color:var(--base-2);color:var(--contrast);}a{color:var(--accent)
 
 
 
-<p>In the following figure, we showcase a size-64 batch of checkpoints generated by a trained <strong><em>Skipper</em></strong> agent, from the current state shown in the left. The non-existent checkpoints (that don’t belong to the state space) are color-inverted.</p>
+<p class="has-medium-font-size">[Not in paper bonus] In the following figure, we showcase a size-64 batch of checkpoints generated by a trained <strong><em>Skipper</em></strong> agent, from the current state shown in the left. The non-existent checkpoints (that don’t belong to the state space) are color-inverted.</p>
 
 
 

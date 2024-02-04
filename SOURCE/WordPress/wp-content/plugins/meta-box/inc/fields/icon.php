@@ -11,6 +11,7 @@ class RWMB_Icon_Field extends RWMB_Select_Advanced_Field {
 		parent::admin_enqueue_scripts();
 
 		wp_enqueue_style( 'rwmb-icon', RWMB_CSS_URL . 'icon.css', [], RWMB_VER );
+		wp_style_add_data( 'rwmb-icon', 'path', RWMB_CSS_DIR . 'icon.css' );
 		wp_enqueue_script( 'rwmb-icon', RWMB_JS_URL . 'icon.js', [ 'rwmb-select2', 'rwmb-select', 'underscore' ], RWMB_VER, true );
 
 		$args  = func_get_args();
@@ -230,7 +231,7 @@ class RWMB_Icon_Field extends RWMB_Select_Advanced_Field {
 		// Ensure absolute paths and URLs.
 		$field['icon_file'] = self::ensure_absolute_path( $field['icon_file'] );
 		$field['icon_dir']  = self::ensure_absolute_path( $field['icon_dir'] );
-		if ( is_string( $field['icon_css'] ) ) {
+		if ( is_string( $field['icon_css'] ) && $field['icon_css'] ) {
 			$field['icon_css'] = self::ensure_absolute_url( $field['icon_css'] );
 		}
 
@@ -289,8 +290,8 @@ class RWMB_Icon_Field extends RWMB_Select_Advanced_Field {
 	}
 
 	private static function ensure_absolute_path( string $path ): string {
-		if ( ! $path ) {
-			return '';
+		if ( ! $path || file_exists( $path ) ) {
+			return $path;
 		}
 
 		$root = wp_normalize_path( ABSPATH );

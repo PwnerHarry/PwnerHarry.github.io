@@ -222,7 +222,7 @@ embed, iframe, object {max-width: 100%;}
 .one-container .inside-article>.featured-image {margin-top: 0;margin-bottom: 2em;}
 .gp-icon {display: inline-flex;align-self: center;}
 .gp-icon svg {height: 1em;width: 1em;top: .125em;position: relative;fill: currentColor;}
-.close-search .icon-search svg:nth-child(1), .icon-menu-bars svg:nth-child(2), .icon-search svg:nth-child(2), .toggled .icon-menu-bars svg:nth-child(1) {display: none;}
+.close-search .icon-search svg:first-child, .icon-menu-bars svg:nth-child(2), .icon-search svg:nth-child(2), .toggled .icon-menu-bars svg:first-child {display: none;}
 .close-search .icon-search svg:nth-child(2), .toggled .icon-menu-bars svg:nth-child(2) {display: block;}
 .entry-meta .gp-icon {margin-right: .6em;opacity: .7;}
 nav.toggled .icon-arrow-left svg {transform: rotate(-90deg);}

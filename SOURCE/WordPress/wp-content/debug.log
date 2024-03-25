@@ -10791,3 +10791,221 @@
 [14-Mar-2024 21:47:40 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
 [14-Mar-2024 21:47:40 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
 [14-Mar-2024 21:47:40 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts($post_types = [0 => 'elementor_library', 1 => 'page', 6 => 'post', 7 => 'tt_font_control', 8 => 'wp_block', 13 => 'wp_global_styles']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 19:41:11 UTC] PHP Deprecated:  Required parameter $uploads_path follows optional parameter $via_cli in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 6
+[25-Mar-2024 19:41:11 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:11 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:0
+[25-Mar-2024 19:41:11 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:34
+[25-Mar-2024 19:41:11 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[25-Mar-2024 19:41:11 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[25-Mar-2024 19:41:11 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[25-Mar-2024 19:41:11 UTC] PHP Deprecated:  Required parameter $uploads_url follows optional parameter $via_cli in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 6
+[25-Mar-2024 19:41:11 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:11 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:0
+[25-Mar-2024 19:41:11 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:34
+[25-Mar-2024 19:41:11 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[25-Mar-2024 19:41:11 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[25-Mar-2024 19:41:11 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[25-Mar-2024 19:41:11 UTC] PHP Deprecated:  Required parameter $settings follows optional parameter $via_cli in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 6
+[25-Mar-2024 19:41:11 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:11 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:0
+[25-Mar-2024 19:41:11 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:34
+[25-Mar-2024 19:41:11 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[25-Mar-2024 19:41:11 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[25-Mar-2024 19:41:11 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[25-Mar-2024 19:41:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\includes\misc.php on line 1431
+[25-Mar-2024 19:41:21 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:21 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:0
+[25-Mar-2024 19:41:21 UTC] PHP   2. do_action($hook_name = 'admin_init') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:175
+[25-Mar-2024 19:41:21 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 19:41:21 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 19:41:21 UTC] PHP   5. wp_admin_headers('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 19:41:21 UTC] PHP   6. header($header = 'Referrer-Policy: strict-origin-when-cross-origin') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\includes\misc.php:1431
+[25-Mar-2024 19:41:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\functions.php on line 7049
+[25-Mar-2024 19:41:21 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:21 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:0
+[25-Mar-2024 19:41:21 UTC] PHP   2. do_action($hook_name = 'admin_init') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:175
+[25-Mar-2024 19:41:21 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 19:41:21 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 19:41:21 UTC] PHP   5. send_frame_options_header() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:322
+[25-Mar-2024 19:41:21 UTC] PHP   6. header($header = 'X-Frame-Options: SAMEORIGIN') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\functions.php:7049
+[25-Mar-2024 19:41:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-header.php on line 9
+[25-Mar-2024 19:41:22 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:22 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:0
+[25-Mar-2024 19:41:22 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:239
+[25-Mar-2024 19:41:22 UTC] PHP   3. header($header = 'Content-Type: text/html; charset=UTF-8') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-header.php:9
+[25-Mar-2024 19:41:24 UTC] PHP Warning:  Attempt to read property "hierarchical" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 341
+[25-Mar-2024 19:41:24 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:24 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 19:41:24 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 19:41:24 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 19:41:24 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 19:41:24 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 19:41:24 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 19:41:24 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 19:41:24 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 19:41:24 UTC] PHP   9. get_post_permalink($post = '405', $leavename = *uninitialized*, $sample = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 19:41:24 UTC] PHP Warning:  Attempt to read property "query_var" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 351
+[25-Mar-2024 19:41:24 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:24 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 19:41:24 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 19:41:24 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 19:41:24 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 19:41:24 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 19:41:24 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 19:41:24 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 19:41:24 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 19:41:24 UTC] PHP   9. get_post_permalink($post = '405', $leavename = *uninitialized*, $sample = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 19:41:24 UTC] PHP Warning:  Attempt to read property "hierarchical" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 341
+[25-Mar-2024 19:41:24 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:24 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 19:41:24 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 19:41:24 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 19:41:24 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 19:41:24 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 19:41:24 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 19:41:24 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 19:41:24 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 19:41:24 UTC] PHP   9. get_post_permalink($post = '281', $leavename = *uninitialized*, $sample = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 19:41:24 UTC] PHP Warning:  Attempt to read property "query_var" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 351
+[25-Mar-2024 19:41:24 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:24 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 19:41:24 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 19:41:24 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 19:41:24 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 19:41:24 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 19:41:24 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 19:41:24 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 19:41:24 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 19:41:24 UTC] PHP   9. get_post_permalink($post = '281', $leavename = *uninitialized*, $sample = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 19:41:24 UTC] PHP Warning:  Attempt to read property "labels" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[25-Mar-2024 19:41:24 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:24 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 19:41:24 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 19:41:24 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 19:41:24 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 19:41:24 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 19:41:24 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 19:41:24 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 19:41:24 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 19:41:24 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts($post_types = [0 => 'elementor_library', 1 => 'page', 6 => 'post', 7 => 'tt_font_control', 8 => 'wp_block', 13 => 'wp_global_styles']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 19:41:24 UTC] PHP Warning:  Attempt to read property "name" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[25-Mar-2024 19:41:24 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:24 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 19:41:24 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 19:41:24 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 19:41:24 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 19:41:24 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 19:41:24 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 19:41:24 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 19:41:24 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 19:41:24 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts($post_types = [0 => 'elementor_library', 1 => 'page', 6 => 'post', 7 => 'tt_font_control', 8 => 'wp_block', 13 => 'wp_global_styles']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 19:41:24 UTC] PHP Warning:  Attempt to read property "labels" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[25-Mar-2024 19:41:24 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:24 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 19:41:24 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 19:41:24 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 19:41:24 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 19:41:24 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 19:41:24 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 19:41:24 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 19:41:24 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 19:41:24 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts($post_types = [0 => 'elementor_library', 1 => 'page', 6 => 'post', 7 => 'tt_font_control', 8 => 'wp_block', 13 => 'wp_global_styles']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 19:41:24 UTC] PHP Warning:  Attempt to read property "name" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[25-Mar-2024 19:41:24 UTC] PHP Stack trace:
+[25-Mar-2024 19:41:24 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 19:41:24 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 19:41:24 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 19:41:24 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 19:41:24 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 19:41:24 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 19:41:24 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 19:41:24 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 19:41:24 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts($post_types = [0 => 'elementor_library', 1 => 'page', 6 => 'post', 7 => 'tt_font_control', 8 => 'wp_block', 13 => 'wp_global_styles']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 20:08:25 UTC] PHP Warning:  Attempt to read property "hierarchical" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 341
+[25-Mar-2024 20:08:25 UTC] PHP Stack trace:
+[25-Mar-2024 20:08:25 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 20:08:25 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 20:08:25 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 20:08:25 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 20:08:25 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 20:08:25 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 20:08:25 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 20:08:25 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 20:08:25 UTC] PHP   9. get_post_permalink($post = '405', $leavename = *uninitialized*, $sample = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 20:08:25 UTC] PHP Warning:  Attempt to read property "query_var" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 351
+[25-Mar-2024 20:08:25 UTC] PHP Stack trace:
+[25-Mar-2024 20:08:25 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 20:08:25 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 20:08:25 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 20:08:25 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 20:08:25 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 20:08:25 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 20:08:25 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 20:08:25 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 20:08:25 UTC] PHP   9. get_post_permalink($post = '405', $leavename = *uninitialized*, $sample = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 20:08:25 UTC] PHP Warning:  Attempt to read property "hierarchical" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 341
+[25-Mar-2024 20:08:25 UTC] PHP Stack trace:
+[25-Mar-2024 20:08:25 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 20:08:25 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 20:08:25 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 20:08:25 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 20:08:25 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 20:08:25 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 20:08:25 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 20:08:25 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 20:08:25 UTC] PHP   9. get_post_permalink($post = '281', $leavename = *uninitialized*, $sample = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 20:08:25 UTC] PHP Warning:  Attempt to read property "query_var" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\link-template.php on line 351
+[25-Mar-2024 20:08:25 UTC] PHP Stack trace:
+[25-Mar-2024 20:08:25 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 20:08:25 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 20:08:25 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 20:08:25 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 20:08:25 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 20:08:25 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 20:08:25 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 20:08:25 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 20:08:25 UTC] PHP   9. get_post_permalink($post = '281', $leavename = *uninitialized*, $sample = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 20:08:25 UTC] PHP Warning:  Attempt to read property "labels" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[25-Mar-2024 20:08:25 UTC] PHP Stack trace:
+[25-Mar-2024 20:08:25 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 20:08:25 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 20:08:25 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 20:08:25 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 20:08:25 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 20:08:25 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 20:08:25 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 20:08:25 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 20:08:25 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts($post_types = [0 => 'elementor_library', 1 => 'page', 6 => 'post', 7 => 'tt_font_control', 8 => 'wp_block', 13 => 'wp_global_styles']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 20:08:25 UTC] PHP Warning:  Attempt to read property "name" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[25-Mar-2024 20:08:25 UTC] PHP Stack trace:
+[25-Mar-2024 20:08:25 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 20:08:25 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 20:08:25 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 20:08:25 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 20:08:25 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 20:08:25 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 20:08:25 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 20:08:25 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 20:08:25 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts($post_types = [0 => 'elementor_library', 1 => 'page', 6 => 'post', 7 => 'tt_font_control', 8 => 'wp_block', 13 => 'wp_global_styles']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 20:08:25 UTC] PHP Warning:  Attempt to read property "labels" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[25-Mar-2024 20:08:25 UTC] PHP Stack trace:
+[25-Mar-2024 20:08:25 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 20:08:25 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 20:08:25 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 20:08:25 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 20:08:25 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 20:08:25 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 20:08:25 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 20:08:25 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 20:08:25 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts($post_types = [0 => 'elementor_library', 1 => 'page', 6 => 'post', 7 => 'tt_font_control', 8 => 'wp_block', 13 => 'wp_global_styles']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[25-Mar-2024 20:08:25 UTC] PHP Warning:  Attempt to read property "name" on null in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 14
+[25-Mar-2024 20:08:25 UTC] PHP Stack trace:
+[25-Mar-2024 20:08:25 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[25-Mar-2024 20:08:25 UTC] PHP   2. do_action($hook_name = 'wp_ajax_wp_static_html_output_ajax') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:188
+[25-Mar-2024 20:08:25 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[25-Mar-2024 20:08:25 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[25-Mar-2024 20:08:25 UTC] PHP   5. wp_static_html_output_ajax('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[25-Mar-2024 20:08:25 UTC] PHP   6. WP2Static_Controller->generate_filelist_preview() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:63
+[25-Mar-2024 20:08:25 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[25-Mar-2024 20:08:25 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
+[25-Mar-2024 20:08:25 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts($post_types = [0 => 'elementor_library', 1 => 'page', 6 => 'post', 7 => 'tt_font_control', 8 => 'wp_block', 13 => 'wp_global_styles']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10

@@ -86,7 +86,7 @@ body{background-color:var(--base-2);color:var(--contrast);}a{color:var(--accent)
 
 
 
-<p class="has-text-align-center"><a href="https://arxiv.org/abs/2310.00229" data-type="link" data-id="https://arxiv.org/abs/2310.00229">paper</a> (arXiv) / <a href="https://github.com/mila-iqia/Skipper" data-type="link" data-id="https://github.com/PwnerHarry/Skipper">GitHub</a></p>
+<p class="has-text-align-center"><a href="https://arxiv.org/abs/2310.00229" data-type="link" data-id="https://arxiv.org/abs/2310.00229">paper</a> / <a href="https://github.com/mila-iqia/Skipper" data-type="link" data-id="https://github.com/PwnerHarry/Skipper">GitHub</a> / <a href="https://mila.quebec/en/article/skipper-combining-spatial-and-temporal-abstraction-for-better-generalization/" data-type="link" data-id="https://mila.quebec/en/article/skipper-combining-spatial-and-temporal-abstraction-for-better-generalization/">Mila Blogpost</a></p>
 
 
 
@@ -103,55 +103,7 @@ body{background-color:var(--base-2);color:var(--contrast);}a{color:var(--accent)
 
 
 
-<p class="has-medium-font-size">We propose <strong><em>Skipper</em></strong>, a model-based RL agent that utilizes <strong>spatial</strong> and <strong>temporal</strong> abstractions to generalize learned skills in novel situations. It automatically decomposes the task at hand into smaller-scale, more manageable subtasks and hence enables sparse decision-making and focuses its computation on the relevant parts of the environment. This relies on the definition of a high-level <span style="text-decoration: underline;">proxy problem</span> represented as a directed graph, in which vertices and edges are learned end-to-end using hindsight. Our theoretical analyses provide performance guarantees under appropriate assumptions and establish where our approach is expected to be helpful. Generalization-focused experiments validate Skipper’s significant advantage in zero-shot generalization, compared to existing state-of-the-art hierarchical planning methods.</p>
-
-
-
-<p class="has-medium-font-size">The highlights of this work include:</p>
-
-
-
-<p class="has-medium-font-size"><strong>Theory-Motivated Divide-and-Conquer</strong>: we propose proxy problems with which a divide and conquer strategy could implement over longer-term reasoning for better generalization. Theoretical analyses are presented to show the applicable scenario and performance guarantees;</p>
-
-
-
-<p class="has-medium-font-size"><strong>Spatio-temporal abstraction</strong>: temporal abstraction allows us to break down the given task into smaller ones, while spatial abstraction over the state features through an attention mechanism is used to improve local learning and generalization;</p>
-
-
-
-<p class="has-medium-font-size"><strong>Decision-time planning</strong> is employed due to its ability to improve the policy in novel situations;</p>
-
-
-
-<p class="has-medium-font-size"><strong>Learning end-to-end from hindsight, off-policy</strong>: to maximize sample efficiency and the ease of training, we propose to use auxiliary (off-)policy methods for edge estimation, and learn a context-conditioned checkpoint generation, both from hindsight experience replay;</p>
-
-
-
-<p class="has-medium-font-size"><strong>Higher quality proxies</strong>: we introduce pruning techniques to improve the sparsity of the proxy problems, which leads to better quality;</p>
-
-
-
-<p class="has-medium-font-size"><strong>Delusion suppression</strong>: we propose a delusion suppression technique to minimize the behavior of chasing non-existent outcomes. This is done by exposing the edge estimators to targets that would otherwise not exist in experience.<br></p>
-
-
-
-<figure class="wp-block-table is-style-stripes has-small-font-size"><table><thead><tr><th></th><th><em>Skipper</em></th><th>Director</th><th>LEAP</th><th>adapted LEAP variant </th></tr></thead><tbody><tr><td><strong>Decision-Time Planning</strong></td><td>Dynamic Programming (fast)</td><td>No (only sample a conditioning latent)</td><td>Evolutionary Algorithms (slow)</td><td>Evolutionary Algorithms (slow)</td></tr><tr><td><strong>Offline Planning</strong></td><td>No</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td><strong>Compatible with Terminal States</strong></td><td>Yes</td><td>Theoretically yes, suffer in experiments</td><td>No (TDM)</td><td>Yes</td></tr><tr><td><strong>Pretraining</strong></td><td>No</td><td>No</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Scope</strong></td><td>Theorem Condition, tested in navigation</td><td>General RL</td><td>Navigation</td><td>Navigation</td></tr><tr><td><strong>Sample Scheme</strong></td><td>Simple HER</td><td>Mixed Strategies</td><td>Mixed Strategies</td><td>Simple HER</td></tr><tr><td><strong>Generalizable Model</strong></td><td>Yes</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td><strong>Generator Representation</strong></td><td>Discrete (partial description)</td><td>Discrete</td><td>Continuous</td><td>Discrete (partial description)</td></tr><tr><td><strong>Delusion Suppression</strong></td><td>Compatible, improves behavior</td><td>No</td><td>Compatible</td><td>Compatible, improves behavior dramatically</td></tr><tr><td><strong>Reconstruction</strong></td><td>Generator Only (not conditioned on actions), from state to future states</td><td>Representation and Model (atomic time-steps), from state to next state</td><td>Generator Only (not conditioned on actions), from state to state itself</td><td>Generator Only (not conditioned on actions), from state to future states</td></tr><tr><td><strong>OOD Adaptability</strong></td><td>good if the generator adapts well</td><td>poor because of overfitting value estimators on training tasks</td><td>good if the generator adapts well</td><td>good if the generator adapts well</td></tr><tr><td><br><br><br><br><strong>Limitations</strong><br><br><br><br></td><td>Not tested in partially-observable settings, not tested in generic RL settings; Checkpoints not task-aware</td><td>Cannot generalize well</td><td>very prone to delusional paths, not compatible with terminal states, sensitive to time budget for each sub-goal; Subgoals not task-aware</td><td>very prone to delusional paths; Subgoals not task-aware</td></tr></tbody></table><figcaption class="wp-element-caption"><em>Comparison of the characteristics of the Hierarchical Planning (HP) agents in this work </em></figcaption></figure>
-
-
-
-<p></p>
-
-
-
-<p class="has-medium-font-size">[Not in paper bonus] In the following figure, we showcase a size-64 batch of checkpoints generated by a trained <strong><em>Skipper</em></strong> agent, from the current state shown in the left. The non-existent checkpoints (that don’t belong to the state space) are color-inverted.</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="512" src="http://mingde.world/wp-content/uploads/2023/10/fig_example_checkpoints-1024x512.png" alt="" class="wp-image-512" srcset="http://mingde.world/wp-content/uploads/2023/10/fig_example_checkpoints-1024x512.png 1024w,http://mingde.world/wp-content/uploads/2023/10/fig_example_checkpoints-300x150.png 300w,http://mingde.world/wp-content/uploads/2023/10/fig_example_checkpoints-768x384.png 768w,http://mingde.world/wp-content/uploads/2023/10/fig_example_checkpoints.png 1231w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
-
-
-
-<p><strong><em>More contents coming soon!</em></strong></p>
+<p class="has-medium-font-size">For more details, please check the blog post <a href="https://mila.quebec/en/article/skipper-combining-spatial-and-temporal-abstraction-for-better-generalization/" data-type="link" data-id="https://mila.quebec/en/article/skipper-combining-spatial-and-temporal-abstraction-for-better-generalization/">here</a>, by Mila.</p>
 		</div>
 
 			</div>

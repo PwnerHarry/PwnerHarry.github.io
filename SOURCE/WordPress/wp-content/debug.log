@@ -11097,3 +11097,678 @@
 [25-Mar-2024 20:12:59 UTC] PHP   7. WP2Static_FilesHelper::buildInitialFileList($via_cli = TRUE, $uploads_path = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/uploads', $uploads_url = 'http://localhost/homepage/wp-content/uploads', $settings = ['baseUrl' => 'http://OFFLINEZIP.wpsho', 'selected_deployment_option' => 'folder', 'detection_level' => 'everything', 'crawl_increment' => 1]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
 [25-Mar-2024 20:12:59 UTC] PHP   8. WP2Static_FilesHelper::getAllWPPostURLs($wp_site_url = 'http://localhost/homepage') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:6
 [25-Mar-2024 20:12:59 UTC] PHP   9. WP2Static_FilesHelper::getPaginationURLsForPosts($post_types = [0 => 'elementor_library', 1 => 'page', 6 => 'post', 7 => 'tt_font_control', 8 => 'wp_block', 13 => 'wp_global_styles']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php:10
+[26-Mar-2024 03:20:28 UTC] PHP Deprecated:  Optional parameter $via_cli declared before required parameter $settings is implicitly treated as a required parameter in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static\FilesHelper.php on line 6
+[26-Mar-2024 03:20:28 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:28 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:0
+[26-Mar-2024 03:20:28 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:17
+[26-Mar-2024 03:20:28 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-blog-header.php:13
+[26-Mar-2024 03:20:28 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:28 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:28 UTC] PHP   6. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:28 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$options is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:28 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:28 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:0
+[26-Mar-2024 03:20:28 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:17
+[26-Mar-2024 03:20:28 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-blog-header.php:13
+[26-Mar-2024 03:20:28 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:28 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:28 UTC] PHP   6. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:28 UTC] PHP   7. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:28 UTC] PHP   8. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:28 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$view is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:28 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:28 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:0
+[26-Mar-2024 03:20:28 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:17
+[26-Mar-2024 03:20:28 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-blog-header.php:13
+[26-Mar-2024 03:20:28 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:28 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:28 UTC] PHP   6. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:28 UTC] PHP   7. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:28 UTC] PHP   8. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:30 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$options is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:30 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:30 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-cron.php:0
+[26-Mar-2024 03:20:30 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-cron.php:46
+[26-Mar-2024 03:20:30 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:30 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:30 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:30 UTC] PHP   6. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:30 UTC] PHP   7. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:30 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$view is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:30 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:30 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-cron.php:0
+[26-Mar-2024 03:20:30 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-cron.php:46
+[26-Mar-2024 03:20:30 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:30 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:30 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:30 UTC] PHP   6. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:30 UTC] PHP   7. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:35 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$options is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:35 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:35 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:0
+[26-Mar-2024 03:20:35 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:17
+[26-Mar-2024 03:20:35 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-blog-header.php:13
+[26-Mar-2024 03:20:35 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:35 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:35 UTC] PHP   6. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:35 UTC] PHP   7. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:35 UTC] PHP   8. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:35 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$view is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:35 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:35 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:0
+[26-Mar-2024 03:20:35 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:17
+[26-Mar-2024 03:20:35 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-blog-header.php:13
+[26-Mar-2024 03:20:35 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:35 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:35 UTC] PHP   6. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:35 UTC] PHP   7. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:35 UTC] PHP   8. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:39 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$options is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:39 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:39 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:0
+[26-Mar-2024 03:20:39 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:17
+[26-Mar-2024 03:20:39 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-blog-header.php:13
+[26-Mar-2024 03:20:39 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:39 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:39 UTC] PHP   6. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:39 UTC] PHP   7. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:39 UTC] PHP   8. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:39 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$view is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:39 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:39 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:0
+[26-Mar-2024 03:20:39 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:17
+[26-Mar-2024 03:20:39 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-blog-header.php:13
+[26-Mar-2024 03:20:39 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:39 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:39 UTC] PHP   6. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:39 UTC] PHP   7. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:39 UTC] PHP   8. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:39 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$options is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:39 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:39 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:0
+[26-Mar-2024 03:20:39 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:17
+[26-Mar-2024 03:20:39 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-blog-header.php:13
+[26-Mar-2024 03:20:39 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:39 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:39 UTC] PHP   6. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:39 UTC] PHP   7. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:39 UTC] PHP   8. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:39 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$view is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:39 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:39 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:0
+[26-Mar-2024 03:20:39 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:17
+[26-Mar-2024 03:20:39 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-blog-header.php:13
+[26-Mar-2024 03:20:39 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:39 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:39 UTC] PHP   6. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:39 UTC] PHP   7. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:39 UTC] PHP   8. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:39 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$options is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:39 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:39 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:0
+[26-Mar-2024 03:20:39 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:17
+[26-Mar-2024 03:20:39 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-blog-header.php:13
+[26-Mar-2024 03:20:39 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:39 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:39 UTC] PHP   6. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:39 UTC] PHP   7. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:39 UTC] PHP   8. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:39 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$view is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:39 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:39 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:0
+[26-Mar-2024 03:20:39 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\index.php:17
+[26-Mar-2024 03:20:39 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-blog-header.php:13
+[26-Mar-2024 03:20:39 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:39 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:39 UTC] PHP   6. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:39 UTC] PHP   7. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:39 UTC] PHP   8. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:40 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$options is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:40 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:40 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\index.php:0
+[26-Mar-2024 03:20:40 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\index.php:10
+[26-Mar-2024 03:20:40 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:34
+[26-Mar-2024 03:20:40 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:40 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:40 UTC] PHP   6. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:40 UTC] PHP   7. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:40 UTC] PHP   8. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:40 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$view is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:40 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:40 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\index.php:0
+[26-Mar-2024 03:20:40 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\index.php:10
+[26-Mar-2024 03:20:40 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:34
+[26-Mar-2024 03:20:40 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:40 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:40 UTC] PHP   6. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:40 UTC] PHP   7. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:40 UTC] PHP   8. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php on line 1435
+[26-Mar-2024 03:20:40 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:40 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\index.php:0
+[26-Mar-2024 03:20:40 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\index.php:10
+[26-Mar-2024 03:20:40 UTC] PHP   3. auth_redirect() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:99
+[26-Mar-2024 03:20:40 UTC] PHP   4. wp_redirect($location = 'http://localhost/homepage/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fhomepage%2Fwp-admin%2F&reauth=1', $status = *uninitialized*, $x_redirect_by = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php:1248
+[26-Mar-2024 03:20:40 UTC] PHP   5. header($header = 'X-Redirect-By: WordPress') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php:1435
+[26-Mar-2024 03:20:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php on line 1438
+[26-Mar-2024 03:20:40 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:40 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\index.php:0
+[26-Mar-2024 03:20:40 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\index.php:10
+[26-Mar-2024 03:20:40 UTC] PHP   3. auth_redirect() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:99
+[26-Mar-2024 03:20:40 UTC] PHP   4. wp_redirect($location = 'http://localhost/homepage/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fhomepage%2Fwp-admin%2F&reauth=1', $status = *uninitialized*, $x_redirect_by = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php:1248
+[26-Mar-2024 03:20:40 UTC] PHP   5. header($header = 'Location: http://localhost/homepage/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fhomepage%2Fwp-admin%2F&reauth=1', $replace = TRUE, $response_code = 302) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php:1438
+[26-Mar-2024 03:20:48 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$options is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:48 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:48 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:48 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:12
+[26-Mar-2024 03:20:48 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:48 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:48 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:48 UTC] PHP   6. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:48 UTC] PHP   7. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:48 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$view is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:48 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:48 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:48 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:12
+[26-Mar-2024 03:20:48 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:48 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:48 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:48 UTC] PHP   6. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:48 UTC] PHP   7. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php on line 504
+[26-Mar-2024 03:20:48 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:48 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:48 UTC] PHP   2. header($header = 'Content-Type: text/html; charset=UTF-8') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:504
+[26-Mar-2024 03:20:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php on line 520
+[26-Mar-2024 03:20:48 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:48 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:48 UTC] PHP   2. setcookie($name = 'wordpress_test_cookie', $value = 'WP Cookie check', $expires_or_options = 0, $path = '/homepage/', $domain = FALSE, $secure = FALSE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:520
+[26-Mar-2024 03:20:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\functions.php on line 7049
+[26-Mar-2024 03:20:48 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:48 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:48 UTC] PHP   2. do_action($hook_name = 'login_init') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:535
+[26-Mar-2024 03:20:48 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:20:48 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:20:48 UTC] PHP   5. send_frame_options_header() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:322
+[26-Mar-2024 03:20:48 UTC] PHP   6. header($header = 'X-Frame-Options: SAMEORIGIN') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\functions.php:7049
+[26-Mar-2024 03:20:51 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$options is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:51 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:51 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:51 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:12
+[26-Mar-2024 03:20:51 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:51 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:51 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:51 UTC] PHP   6. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:51 UTC] PHP   7. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:51 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$view is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:51 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:51 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:51 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:12
+[26-Mar-2024 03:20:51 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:51 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:51 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:51 UTC] PHP   6. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:51 UTC] PHP   7. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php on line 504
+[26-Mar-2024 03:20:51 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:51 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:51 UTC] PHP   2. header($header = 'Content-Type: text/html; charset=UTF-8') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:504
+[26-Mar-2024 03:20:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php on line 520
+[26-Mar-2024 03:20:51 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:51 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:51 UTC] PHP   2. setcookie($name = 'wordpress_test_cookie', $value = 'WP Cookie check', $expires_or_options = 0, $path = '/homepage/', $domain = FALSE, $secure = FALSE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:520
+[26-Mar-2024 03:20:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\functions.php on line 7049
+[26-Mar-2024 03:20:51 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:51 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:51 UTC] PHP   2. do_action($hook_name = 'login_init') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:535
+[26-Mar-2024 03:20:51 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:20:51 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:20:51 UTC] PHP   5. send_frame_options_header() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:322
+[26-Mar-2024 03:20:51 UTC] PHP   6. header($header = 'X-Frame-Options: SAMEORIGIN') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\functions.php:7049
+[26-Mar-2024 03:20:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php on line 1093
+[26-Mar-2024 03:20:51 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:51 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:51 UTC] PHP   2. wp_signon($credentials = [], $secure_cookie = '') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:1311
+[26-Mar-2024 03:20:51 UTC] PHP   3. wp_set_auth_cookie($user_id = 1, $remember = FALSE, $secure = FALSE, $token = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\user.php:112
+[26-Mar-2024 03:20:51 UTC] PHP   4. setcookie($name = 'wordpress_12fae16befbb5e23058569c9a507d89b', $value = 'PwnerHarry|1711596051|dkV3P0kYgmMJ3wHVxmMjnUn2bCTsAegBmODxxOqaUHs|a82b50a6761768dc3d9ce17c57d8dbb47db8798af009dd71eb73e742c496e0b7', $expires_or_options = 0, $path = '/homepage/wp-content/plugins', $domain = FALSE, $secure = FALSE, $httponly = TRUE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php:1093
+[26-Mar-2024 03:20:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php on line 1094
+[26-Mar-2024 03:20:51 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:51 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:51 UTC] PHP   2. wp_signon($credentials = [], $secure_cookie = '') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:1311
+[26-Mar-2024 03:20:51 UTC] PHP   3. wp_set_auth_cookie($user_id = 1, $remember = FALSE, $secure = FALSE, $token = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\user.php:112
+[26-Mar-2024 03:20:51 UTC] PHP   4. setcookie($name = 'wordpress_12fae16befbb5e23058569c9a507d89b', $value = 'PwnerHarry|1711596051|dkV3P0kYgmMJ3wHVxmMjnUn2bCTsAegBmODxxOqaUHs|a82b50a6761768dc3d9ce17c57d8dbb47db8798af009dd71eb73e742c496e0b7', $expires_or_options = 0, $path = '/homepage/wp-admin', $domain = FALSE, $secure = FALSE, $httponly = TRUE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php:1094
+[26-Mar-2024 03:20:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php on line 1095
+[26-Mar-2024 03:20:51 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:51 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:51 UTC] PHP   2. wp_signon($credentials = [], $secure_cookie = '') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:1311
+[26-Mar-2024 03:20:51 UTC] PHP   3. wp_set_auth_cookie($user_id = 1, $remember = FALSE, $secure = FALSE, $token = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\user.php:112
+[26-Mar-2024 03:20:51 UTC] PHP   4. setcookie($name = 'wordpress_logged_in_12fae16befbb5e23058569c9a507d89b', $value = 'PwnerHarry|1711596051|dkV3P0kYgmMJ3wHVxmMjnUn2bCTsAegBmODxxOqaUHs|923781b640081c552208fa24fb864c3bf26e1c06fe60f3c5b3a4a88ff3da4858', $expires_or_options = 0, $path = '/homepage/', $domain = FALSE, $secure = FALSE, $httponly = TRUE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php:1095
+[26-Mar-2024 03:20:52 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$options is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:52 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:52 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:52 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:12
+[26-Mar-2024 03:20:52 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:52 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:52 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:52 UTC] PHP   6. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:52 UTC] PHP   7. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:52 UTC] PHP Deprecated:  Creation of dynamic property WP2Static_Controller::$view is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php on line 2
+[26-Mar-2024 03:20:52 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:52 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:52 UTC] PHP   2. require() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:12
+[26-Mar-2024 03:20:52 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:20:52 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:20:52 UTC] PHP   5. include_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:473
+[26-Mar-2024 03:20:52 UTC] PHP   6. WP2Static_Controller::init($bootstrap_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\static-html-output-plugin\\wp2static.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\wp2static.php:28
+[26-Mar-2024 03:20:52 UTC] PHP   7. WP2Static_Controller::getInstance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2
+[26-Mar-2024 03:20:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php on line 504
+[26-Mar-2024 03:20:52 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:52 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:52 UTC] PHP   2. header($header = 'Content-Type: text/html; charset=UTF-8') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:504
+[26-Mar-2024 03:20:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php on line 520
+[26-Mar-2024 03:20:52 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:52 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:52 UTC] PHP   2. setcookie($name = 'wordpress_test_cookie', $value = 'WP Cookie check', $expires_or_options = 0, $path = '/homepage/', $domain = FALSE, $secure = FALSE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:520
+[26-Mar-2024 03:20:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\functions.php on line 7049
+[26-Mar-2024 03:20:52 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:52 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:52 UTC] PHP   2. do_action($hook_name = 'login_init') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:535
+[26-Mar-2024 03:20:52 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:20:52 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:20:52 UTC] PHP   5. send_frame_options_header() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:322
+[26-Mar-2024 03:20:52 UTC] PHP   6. header($header = 'X-Frame-Options: SAMEORIGIN') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\functions.php:7049
+[26-Mar-2024 03:20:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php on line 1093
+[26-Mar-2024 03:20:52 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:52 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:52 UTC] PHP   2. wp_signon($credentials = [], $secure_cookie = '') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:1311
+[26-Mar-2024 03:20:52 UTC] PHP   3. wp_set_auth_cookie($user_id = 1, $remember = TRUE, $secure = FALSE, $token = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\user.php:112
+[26-Mar-2024 03:20:52 UTC] PHP   4. setcookie($name = 'wordpress_12fae16befbb5e23058569c9a507d89b', $value = 'PwnerHarry|1712632852|QxtJ3LHZRr1H957SBlFvzg6PUCttyTGLFoefErDKnHa|ec228bd9e16597bcf5f4944742358faa9bd28f31231ebbf00edb9e116cf4a116', $expires_or_options = 1712676052, $path = '/homepage/wp-content/plugins', $domain = FALSE, $secure = FALSE, $httponly = TRUE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php:1093
+[26-Mar-2024 03:20:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php on line 1094
+[26-Mar-2024 03:20:52 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:52 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:52 UTC] PHP   2. wp_signon($credentials = [], $secure_cookie = '') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:1311
+[26-Mar-2024 03:20:52 UTC] PHP   3. wp_set_auth_cookie($user_id = 1, $remember = TRUE, $secure = FALSE, $token = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\user.php:112
+[26-Mar-2024 03:20:52 UTC] PHP   4. setcookie($name = 'wordpress_12fae16befbb5e23058569c9a507d89b', $value = 'PwnerHarry|1712632852|QxtJ3LHZRr1H957SBlFvzg6PUCttyTGLFoefErDKnHa|ec228bd9e16597bcf5f4944742358faa9bd28f31231ebbf00edb9e116cf4a116', $expires_or_options = 1712676052, $path = '/homepage/wp-admin', $domain = FALSE, $secure = FALSE, $httponly = TRUE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php:1094
+[26-Mar-2024 03:20:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\static-html-output-plugin\plugin\WP2Static.php:2) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php on line 1095
+[26-Mar-2024 03:20:52 UTC] PHP Stack trace:
+[26-Mar-2024 03:20:52 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:0
+[26-Mar-2024 03:20:52 UTC] PHP   2. wp_signon($credentials = [], $secure_cookie = '') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-login.php:1311
+[26-Mar-2024 03:20:52 UTC] PHP   3. wp_set_auth_cookie($user_id = 1, $remember = TRUE, $secure = FALSE, $token = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\user.php:112
+[26-Mar-2024 03:20:52 UTC] PHP   4. setcookie($name = 'wordpress_logged_in_12fae16befbb5e23058569c9a507d89b', $value = 'PwnerHarry|1712632852|QxtJ3LHZRr1H957SBlFvzg6PUCttyTGLFoefErDKnHa|461714372f6a5d3c0271e302e4efe061eeb07a88d7696ab740c75ba608c1c1d0', $expires_or_options = 1712676052, $path = '/homepage/', $domain = FALSE, $secure = FALSE, $httponly = TRUE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\pluggable.php:1095
+[26-Mar-2024 03:23:48 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-query.php on line 397
+[26-Mar-2024 03:23:48 UTC] PHP Stack trace:
+[26-Mar-2024 03:23:48 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:0
+[26-Mar-2024 03:23:48 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:10
+[26-Mar-2024 03:23:48 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:34
+[26-Mar-2024 03:23:48 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:23:48 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:23:48 UTC] PHP   6. do_action($hook_name = 'plugins_loaded') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:506
+[26-Mar-2024 03:23:48 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:23:48 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:23:48 UTC] PHP   9. simply_static_run_plugin('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:23:48 UTC] PHP  10. Simply_Static\Plugin::instance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\simply-static.php:55
+[26-Mar-2024 03:23:48 UTC] PHP  11. Simply_Static\Plugin->includes() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-plugin.php:75
+[26-Mar-2024 03:23:48 UTC] PHP Deprecated:  version_compare(): Passing null to parameter #1 ($version1) of type string is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-upgrade-handler.php on line 100
+[26-Mar-2024 03:23:48 UTC] PHP Stack trace:
+[26-Mar-2024 03:23:48 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:0
+[26-Mar-2024 03:23:48 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:10
+[26-Mar-2024 03:23:48 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:34
+[26-Mar-2024 03:23:48 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:23:48 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:23:48 UTC] PHP   6. do_action($hook_name = 'plugins_loaded') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:506
+[26-Mar-2024 03:23:48 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:23:48 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:23:48 UTC] PHP   9. simply_static_run_plugin('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:23:48 UTC] PHP  10. Simply_Static\Plugin::instance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\simply-static.php:55
+[26-Mar-2024 03:23:48 UTC] PHP  11. Simply_Static\Upgrade_Handler::run() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-plugin.php:104
+[26-Mar-2024 03:23:48 UTC] PHP  12. version_compare($version1 = NULL, $version2 = '3.1.6.2', $operator = '!=') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-upgrade-handler.php:100
+[26-Mar-2024 03:23:48 UTC] PHP Deprecated:  Automatic conversion of false to array is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\admin\inc\class-ss-migrate-settings.php on line 16
+[26-Mar-2024 03:23:48 UTC] PHP Stack trace:
+[26-Mar-2024 03:23:48 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:0
+[26-Mar-2024 03:23:48 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:10
+[26-Mar-2024 03:23:48 UTC] PHP   3. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:34
+[26-Mar-2024 03:23:48 UTC] PHP   4. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-load.php:50
+[26-Mar-2024 03:23:48 UTC] PHP   5. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-config.php:97
+[26-Mar-2024 03:23:48 UTC] PHP   6. do_action($hook_name = 'plugins_loaded') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-settings.php:506
+[26-Mar-2024 03:23:48 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:23:48 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:23:48 UTC] PHP   9. simply_static_run_plugin('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:23:48 UTC] PHP  10. Simply_Static\Plugin::instance() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\simply-static.php:55
+[26-Mar-2024 03:23:48 UTC] PHP  11. Simply_Static\Upgrade_Handler::run() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-plugin.php:104
+[26-Mar-2024 03:23:48 UTC] PHP  12. Simply_Static\Migrate_Settings::migrate() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-upgrade-handler.php:106
+[26-Mar-2024 03:23:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-query.php:397) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\includes\misc.php on line 1431
+[26-Mar-2024 03:23:48 UTC] PHP Stack trace:
+[26-Mar-2024 03:23:48 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:0
+[26-Mar-2024 03:23:48 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:10
+[26-Mar-2024 03:23:48 UTC] PHP   3. do_action($hook_name = 'admin_init') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:175
+[26-Mar-2024 03:23:48 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:23:48 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:23:48 UTC] PHP   6. wp_admin_headers('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:23:48 UTC] PHP   7. header($header = 'Referrer-Policy: strict-origin-when-cross-origin') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\includes\misc.php:1431
+[26-Mar-2024 03:23:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-query.php:397) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\functions.php on line 7049
+[26-Mar-2024 03:23:48 UTC] PHP Stack trace:
+[26-Mar-2024 03:23:48 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:0
+[26-Mar-2024 03:23:48 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:10
+[26-Mar-2024 03:23:48 UTC] PHP   3. do_action($hook_name = 'admin_init') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin.php:175
+[26-Mar-2024 03:23:48 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:23:48 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:23:48 UTC] PHP   6. send_frame_options_header() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:322
+[26-Mar-2024 03:23:48 UTC] PHP   7. header($header = 'X-Frame-Options: SAMEORIGIN') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\functions.php:7049
+[26-Mar-2024 03:23:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-query.php:397) in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-header.php on line 9
+[26-Mar-2024 03:23:48 UTC] PHP Stack trace:
+[26-Mar-2024 03:23:48 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:0
+[26-Mar-2024 03:23:48 UTC] PHP   2. require_once() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:621
+[26-Mar-2024 03:23:48 UTC] PHP   3. header($header = 'Content-Type: text/html; charset=UTF-8') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-header.php:9
+[26-Mar-2024 03:23:54 UTC] PHP Notice:  tempnam(): file created in the system's temporary directory in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php on line 1433
+[26-Mar-2024 03:23:54 UTC] PHP Stack trace:
+[26-Mar-2024 03:23:54 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:0
+[26-Mar-2024 03:23:54 UTC] PHP   2. activate_plugin($plugin = 'wp-super-cache/wp-cache.php', $redirect = 'http://localhost/homepage/wp-admin/plugins.php?error=true&plugin=wp-super-cache%2Fwp-cache.php', $network_wide = FALSE, $silent = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:58
+[26-Mar-2024 03:23:54 UTC] PHP   3. do_action($hook_name = 'activate_wp-super-cache/wp-cache.php', ...$arg = variadic(FALSE)) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\includes\plugin.php:693
+[26-Mar-2024 03:23:54 UTC] PHP   4. WP_Hook->do_action($args = [0 => FALSE]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:23:54 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => FALSE]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:23:54 UTC] PHP   6. wpsupercache_activate(FALSE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:23:54 UTC] PHP   7. wpsc_check_advanced_cache() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:262
+[26-Mar-2024 03:23:54 UTC] PHP   8. wp_cache_create_advanced_cache() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:2325
+[26-Mar-2024 03:23:54 UTC] PHP   9. wp_cache_replace_line($old = 'define *\\( *\'WPCACHEHOME\'', $new = 'define( \'WPCACHEHOME\', \'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress\\wp-content\\plugins\\wp-super-cache/\' );', $my_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-config.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:2280
+[26-Mar-2024 03:23:54 UTC] PHP  10. tempnam($directory = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/cache/', $prefix = '42cd63cb189c30ed03e42ce2c069566c') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php:1433
+[26-Mar-2024 03:23:54 UTC] PHP Notice:  tempnam(): file created in the system's temporary directory in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php on line 1433
+[26-Mar-2024 03:23:54 UTC] PHP Stack trace:
+[26-Mar-2024 03:23:54 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:0
+[26-Mar-2024 03:23:54 UTC] PHP   2. activate_plugin($plugin = 'wp-super-cache/wp-cache.php', $redirect = 'http://localhost/homepage/wp-admin/plugins.php?error=true&plugin=wp-super-cache%2Fwp-cache.php', $network_wide = FALSE, $silent = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:58
+[26-Mar-2024 03:23:54 UTC] PHP   3. do_action($hook_name = 'activate_wp-super-cache/wp-cache.php', ...$arg = variadic(FALSE)) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\includes\plugin.php:693
+[26-Mar-2024 03:23:54 UTC] PHP   4. WP_Hook->do_action($args = [0 => FALSE]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:23:54 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => FALSE]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:23:54 UTC] PHP   6. wpsupercache_activate(FALSE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:23:54 UTC] PHP   7. wp_cache_verify_config_file() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:263
+[26-Mar-2024 03:23:54 UTC] PHP   8. wp_cache_replace_line($old = 'define\\(\\ \'WPCACHEHOME', $new = '\tdefine( \'WPCACHEHOME\', WP_CONTENT_DIR . "/plugins/wp-super-cache/" );', $my_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/wp-cache-config.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:2229
+[26-Mar-2024 03:23:54 UTC] PHP   9. tempnam($directory = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/cache/', $prefix = '9dc372713683fd865d366d5d9ee810ba') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php:1433
+[26-Mar-2024 03:23:54 UTC] PHP Notice:  tempnam(): file created in the system's temporary directory in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php on line 1433
+[26-Mar-2024 03:23:54 UTC] PHP Stack trace:
+[26-Mar-2024 03:23:54 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:0
+[26-Mar-2024 03:23:54 UTC] PHP   2. activate_plugin($plugin = 'wp-super-cache/wp-cache.php', $redirect = 'http://localhost/homepage/wp-admin/plugins.php?error=true&plugin=wp-super-cache%2Fwp-cache.php', $network_wide = FALSE, $silent = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:58
+[26-Mar-2024 03:23:54 UTC] PHP   3. do_action($hook_name = 'activate_wp-super-cache/wp-cache.php', ...$arg = variadic(FALSE)) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\includes\plugin.php:693
+[26-Mar-2024 03:23:54 UTC] PHP   4. WP_Hook->do_action($args = [0 => FALSE]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:23:54 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => FALSE]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:23:54 UTC] PHP   6. wpsupercache_activate(FALSE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:23:54 UTC] PHP   7. wp_cache_verify_config_file() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:263
+[26-Mar-2024 03:23:54 UTC] PHP   8. wp_cache_replace_line($old = 'sem_id', $new = '$sem_id = 2114741586;', $my_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/wp-cache-config.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:2237
+[26-Mar-2024 03:23:54 UTC] PHP   9. tempnam($directory = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/cache/', $prefix = '3e98410c45ea98addec555019bbae8eb') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php:1433
+[26-Mar-2024 03:23:54 UTC] PHP Notice:  tempnam(): file created in the system's temporary directory in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php on line 1433
+[26-Mar-2024 03:23:54 UTC] PHP Stack trace:
+[26-Mar-2024 03:23:54 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:0
+[26-Mar-2024 03:23:54 UTC] PHP   2. activate_plugin($plugin = 'wp-super-cache/wp-cache.php', $redirect = 'http://localhost/homepage/wp-admin/plugins.php?error=true&plugin=wp-super-cache%2Fwp-cache.php', $network_wide = FALSE, $silent = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:58
+[26-Mar-2024 03:23:54 UTC] PHP   3. do_action($hook_name = 'activate_wp-super-cache/wp-cache.php', ...$arg = variadic(FALSE)) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\includes\plugin.php:693
+[26-Mar-2024 03:23:54 UTC] PHP   4. WP_Hook->do_action($args = [0 => FALSE]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:23:54 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => FALSE]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:23:54 UTC] PHP   6. wpsupercache_activate(FALSE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:23:54 UTC] PHP   7. wp_cache_verify_config_file() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:263
+[26-Mar-2024 03:23:54 UTC] PHP   8. wpsc_set_default_gc($force = TRUE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:2241
+[26-Mar-2024 03:23:54 UTC] PHP   9. wp_cache_setting($field = 'cache_time_interval', $value = 600) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:4082
+[26-Mar-2024 03:23:54 UTC] PHP  10. wp_cache_replace_line($old = '^ *\\$cache_time_interval', $new = '$cache_time_interval = 600;', $my_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/wp-cache-config.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php:1373
+[26-Mar-2024 03:23:54 UTC] PHP  11. tempnam($directory = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/cache/', $prefix = '7b852316cf9d2d41bec07321928afe96') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php:1433
+[26-Mar-2024 03:23:54 UTC] PHP Notice:  tempnam(): file created in the system's temporary directory in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php on line 1433
+[26-Mar-2024 03:23:54 UTC] PHP Stack trace:
+[26-Mar-2024 03:23:54 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:0
+[26-Mar-2024 03:23:54 UTC] PHP   2. activate_plugin($plugin = 'wp-super-cache/wp-cache.php', $redirect = 'http://localhost/homepage/wp-admin/plugins.php?error=true&plugin=wp-super-cache%2Fwp-cache.php', $network_wide = FALSE, $silent = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:58
+[26-Mar-2024 03:23:54 UTC] PHP   3. do_action($hook_name = 'activate_wp-super-cache/wp-cache.php', ...$arg = variadic(FALSE)) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\includes\plugin.php:693
+[26-Mar-2024 03:23:54 UTC] PHP   4. WP_Hook->do_action($args = [0 => FALSE]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:23:54 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => FALSE]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:23:54 UTC] PHP   6. wpsupercache_activate(FALSE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:23:54 UTC] PHP   7. wp_cache_verify_config_file() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:263
+[26-Mar-2024 03:23:54 UTC] PHP   8. wpsc_set_default_gc($force = TRUE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:2241
+[26-Mar-2024 03:23:54 UTC] PHP   9. wp_cache_setting($field = 'cache_max_time', $value = 1800) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:4083
+[26-Mar-2024 03:23:54 UTC] PHP  10. wp_cache_replace_line($old = '^ *\\$cache_max_time', $new = '$cache_max_time = 1800;', $my_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/wp-cache-config.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php:1373
+[26-Mar-2024 03:23:54 UTC] PHP  11. tempnam($directory = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/cache/', $prefix = '5db60c98209913790e4fcce4597ee37c') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php:1433
+[26-Mar-2024 03:23:54 UTC] PHP Notice:  tempnam(): file created in the system's temporary directory in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php on line 1433
+[26-Mar-2024 03:23:54 UTC] PHP Stack trace:
+[26-Mar-2024 03:23:54 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:0
+[26-Mar-2024 03:23:54 UTC] PHP   2. activate_plugin($plugin = 'wp-super-cache/wp-cache.php', $redirect = 'http://localhost/homepage/wp-admin/plugins.php?error=true&plugin=wp-super-cache%2Fwp-cache.php', $network_wide = FALSE, $silent = *uninitialized*) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\plugins.php:58
+[26-Mar-2024 03:23:54 UTC] PHP   3. do_action($hook_name = 'activate_wp-super-cache/wp-cache.php', ...$arg = variadic(FALSE)) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\includes\plugin.php:693
+[26-Mar-2024 03:23:54 UTC] PHP   4. WP_Hook->do_action($args = [0 => FALSE]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:23:54 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => FALSE]) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:23:54 UTC] PHP   6. wpsupercache_activate(FALSE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:23:54 UTC] PHP   7. wp_cache_verify_config_file() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:263
+[26-Mar-2024 03:23:54 UTC] PHP   8. wpsc_set_default_gc($force = TRUE) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:2241
+[26-Mar-2024 03:23:54 UTC] PHP   9. wp_cache_setting($field = 'cache_schedule_interval', $value = 'hourly') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache.php:4084
+[26-Mar-2024 03:23:54 UTC] PHP  10. wp_cache_replace_line($old = '^ *\\$cache_schedule_interval', $new = '$cache_schedule_interval = \'hourly\';', $my_file = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/wp-cache-config.php') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php:1382
+[26-Mar-2024 03:23:54 UTC] PHP  11. tempnam($directory = 'C:\\Git\\PwnerHarry.github.io\\SOURCE\\WordPress/wp-content/cache/', $prefix = 'f03704cb51f02f80b09bffba15751691') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\wp-super-cache\wp-cache-phase2.php:1433
+[26-Mar-2024 03:24:37 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_dir is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 23
+[26-Mar-2024 03:24:37 UTC] PHP Stack trace:
+[26-Mar-2024 03:24:37 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:24:37 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:24:37 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:24:37 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:24:37 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:24:37 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:24:37 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:24:37 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:24:37 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_start_time is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 24
+[26-Mar-2024 03:24:37 UTC] PHP Stack trace:
+[26-Mar-2024 03:24:37 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:24:37 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:24:37 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:24:37 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:24:37 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:24:37 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:24:37 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:24:37 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:24:37 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_dir is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 23
+[26-Mar-2024 03:24:37 UTC] PHP Stack trace:
+[26-Mar-2024 03:24:37 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:24:37 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:24:37 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:24:37 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:24:37 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:24:37 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:24:37 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:24:37 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:24:37 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_start_time is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 24
+[26-Mar-2024 03:24:37 UTC] PHP Stack trace:
+[26-Mar-2024 03:24:37 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:24:37 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:24:37 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:24:37 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:24:37 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:24:37 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:24:37 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:24:37 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:24:41 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_dir is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 23
+[26-Mar-2024 03:24:41 UTC] PHP Stack trace:
+[26-Mar-2024 03:24:41 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:24:41 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:24:41 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:24:41 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:24:41 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:24:41 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:24:41 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:24:41 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:24:41 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_start_time is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 24
+[26-Mar-2024 03:24:41 UTC] PHP Stack trace:
+[26-Mar-2024 03:24:41 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:24:41 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:24:41 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:24:41 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:24:41 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:24:41 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:24:41 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:24:41 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:24:43 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_dir is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 23
+[26-Mar-2024 03:24:43 UTC] PHP Stack trace:
+[26-Mar-2024 03:24:43 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:24:43 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:24:43 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:24:43 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:24:43 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:24:43 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:24:43 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:24:43 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:24:43 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_start_time is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 24
+[26-Mar-2024 03:24:43 UTC] PHP Stack trace:
+[26-Mar-2024 03:24:43 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:24:43 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:24:43 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:24:43 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:24:43 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:24:43 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:24:43 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:24:43 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:24:44 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_dir is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 23
+[26-Mar-2024 03:24:44 UTC] PHP Stack trace:
+[26-Mar-2024 03:24:44 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:24:44 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:24:44 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:24:44 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:24:44 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:24:44 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:24:44 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:24:44 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:24:44 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_start_time is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 24
+[26-Mar-2024 03:24:44 UTC] PHP Stack trace:
+[26-Mar-2024 03:24:44 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:24:44 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:24:44 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:24:44 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:24:44 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:24:44 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:24:44 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:24:44 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:24:45 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_dir is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 23
+[26-Mar-2024 03:24:45 UTC] PHP Stack trace:
+[26-Mar-2024 03:24:45 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:24:45 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:24:45 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:24:45 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:24:45 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:24:45 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:24:45 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:24:45 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:24:45 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_start_time is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 24
+[26-Mar-2024 03:24:45 UTC] PHP Stack trace:
+[26-Mar-2024 03:24:45 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:24:45 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:24:45 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:24:45 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:24:45 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:24:45 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:24:45 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:24:45 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:26:30 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_dir is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 23
+[26-Mar-2024 03:26:30 UTC] PHP Stack trace:
+[26-Mar-2024 03:26:30 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:26:30 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:26:30 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:26:30 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:26:30 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:26:30 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:26:30 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:26:30 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:26:30 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_start_time is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 24
+[26-Mar-2024 03:26:30 UTC] PHP Stack trace:
+[26-Mar-2024 03:26:30 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:26:30 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:26:30 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:26:30 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:26:30 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:26:30 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:26:30 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:26:30 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:26:30 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_dir is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 23
+[26-Mar-2024 03:26:30 UTC] PHP Stack trace:
+[26-Mar-2024 03:26:30 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:26:30 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:26:30 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:26:30 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:26:30 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:26:30 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:26:30 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:26:30 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:26:30 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_start_time is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 24
+[26-Mar-2024 03:26:30 UTC] PHP Stack trace:
+[26-Mar-2024 03:26:30 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:26:30 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:26:30 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:26:30 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:26:30 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:26:30 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:26:30 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:26:30 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:26:33 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_dir is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 23
+[26-Mar-2024 03:26:33 UTC] PHP Stack trace:
+[26-Mar-2024 03:26:33 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:26:33 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:26:33 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:26:33 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:26:33 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:26:33 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:26:33 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:26:33 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:26:33 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_start_time is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 24
+[26-Mar-2024 03:26:33 UTC] PHP Stack trace:
+[26-Mar-2024 03:26:33 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:26:33 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:26:33 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:26:33 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:26:33 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:26:33 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:26:33 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:26:33 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:26:35 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_dir is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 23
+[26-Mar-2024 03:26:35 UTC] PHP Stack trace:
+[26-Mar-2024 03:26:35 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:26:35 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:26:35 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:26:35 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:26:35 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:26:35 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:26:35 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:26:35 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:26:35 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_start_time is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 24
+[26-Mar-2024 03:26:35 UTC] PHP Stack trace:
+[26-Mar-2024 03:26:35 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:26:35 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:26:35 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:26:35 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:26:35 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:26:35 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:26:35 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:26:35 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:26:36 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_dir is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 23
+[26-Mar-2024 03:26:36 UTC] PHP Stack trace:
+[26-Mar-2024 03:26:36 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:26:36 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:26:36 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:26:36 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:26:36 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:26:36 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:26:36 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:26:36 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:26:36 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_start_time is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 24
+[26-Mar-2024 03:26:36 UTC] PHP Stack trace:
+[26-Mar-2024 03:26:36 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:26:36 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:26:36 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:26:36 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:26:36 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:26:36 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:26:36 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:26:36 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:26:36 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_dir is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 23
+[26-Mar-2024 03:26:36 UTC] PHP Stack trace:
+[26-Mar-2024 03:26:36 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:26:36 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:26:36 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:26:36 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:26:36 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:26:36 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:26:36 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:26:36 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
+[26-Mar-2024 03:26:36 UTC] PHP Deprecated:  Creation of dynamic property Simply_Static\Fetch_Urls_Task::$archive_start_time is deprecated in C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 24
+[26-Mar-2024 03:26:36 UTC] PHP Stack trace:
+[26-Mar-2024 03:26:36 UTC] PHP   1. {main}() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:0
+[26-Mar-2024 03:26:36 UTC] PHP   2. do_action($hook_name = 'wp_ajax_nopriv_wp_archive_creation_job') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-admin\admin-ajax.php:203
+[26-Mar-2024 03:26:36 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\plugin.php:517
+[26-Mar-2024 03:26:36 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:348
+[26-Mar-2024 03:26:36 UTC] PHP   5. WP_Background_Process->maybe_handle('') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-includes\class-wp-hook.php:324
+[26-Mar-2024 03:26:36 UTC] PHP   6. WP_Background_Process->handle() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:333
+[26-Mar-2024 03:26:36 UTC] PHP   7. Simply_Static\Archive_Creation_Job->task($task_name = 'fetch_urls') C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\vendor\a5hleyrich\wp-background-processing\classes\wp-background-process.php:516
+[26-Mar-2024 03:26:36 UTC] PHP   8. Simply_Static\Fetch_Urls_Task->__construct() C:\Git\PwnerHarry.github.io\SOURCE\WordPress\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php:145
